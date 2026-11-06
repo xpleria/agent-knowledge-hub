@@ -3,7 +3,7 @@
 - **Scope:** How does an agent use this hub to recall, set up a project, and contribute?
 - **Keywords:** hub, recall, contribute, project-invariant, size, header, git, bootstrap
 - **Status:** current
-- **Updated:** 2026-11-01
+- **Updated:** 2026-11-03
 
 ## Start here
 
@@ -45,6 +45,9 @@ project rules, item IDs, product names or credentials.
   are read into context, so size is a cost.
 - Dates only in the `Updated` header field (YYYY-MM-DD); bump it in the same commit as
   any edit. No incident narration, no item IDs. Describe the pattern, not the event.
+  Exception: a project's dated records (chronicle entries, sign-offs, owner-word
+  attributions such as `owner, YYYY-MM-DD, verbatim: "..."`) keep their dates, because
+  the date is part of the record.
 - Every folder has a `00-*-index.md`; add a row in the same change as the page.
 
 ## Git rules
