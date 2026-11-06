@@ -22,7 +22,7 @@ record lessons and scenarios here; new projects bootstrap from it. Agents read
 | [roles/00-roles-index.md](roles/00-roles-index.md) | What does an orchestrator, implementer, documentation writer or tester do, and what traps apply? |
 | [practices/00-practices-index.md](practices/00-practices-index.md) | Which cross-project working habits apply: briefs, evidence, git safety, owner questions? |
 | [project-setup/00-project-setup-index.md](project-setup/00-project-setup-index.md) | How is a new project's `docs/` and `agent-docs/` laid out, and how do I bootstrap it? |
-| [project-setup/templates/00-templates-index.md](project-setup/templates/00-templates-index.md) | Which starter files (AGENTS.md, agent-docs README, forge topic, horizon item) can I copy? |
+| [project-setup/templates/00-templates-index.md](project-setup/templates/00-templates-index.md) | Which starter files (AGENTS.md, agent-docs README, forge topic, horizon item, chronicle entry) can I copy? |
 | [engines/00-engines-index.md](engines/00-engines-index.md) | Which engine-specific traps are broadly useful? (Labelled per engine.) |
 
 ## Tree
