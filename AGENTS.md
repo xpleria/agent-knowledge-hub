@@ -45,9 +45,12 @@ project rules, item IDs, product names or credentials.
   are read into context, so size is a cost.
 - Dates only in the `Updated` header field (YYYY-MM-DD); bump it in the same commit as
   any edit. No incident narration, no item IDs. Describe the pattern, not the event.
-  Exception: a project's dated records (chronicle entries, sign-offs, owner-word
-  attributions such as `owner, YYYY-MM-DD, verbatim: "..."`) keep their dates, because
-  the date is part of the record.
+  Exception: a project's dated records (chronicle entries, sign-offs, decision dates)
+  keep their dates. They state owner decisions in neutral words and never quote the
+  owner, because the date is part of the record.
+- Owner words: transient docs (forge, horizon, delegation briefs, working notes) may quote
+  the owner verbatim; permanent pages never do. See
+  [practices/owner-words-in-docs.md](practices/owner-words-in-docs.md).
 - Every folder has a `00-*-index.md`; add a row in the same change as the page.
 
 ## Git rules
