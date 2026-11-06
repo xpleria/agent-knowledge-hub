@@ -1,10 +1,10 @@
 # Deploy and verify habits
 
 - **Scope:** How should a project deploy and prove a deploy is live, without leaking secrets or trusting a status code alone?
-- **Keywords:** deploy, verify, served hash, SHA-256, HTTP 200, evidence level, FTPS, certificate, secrets, env file, gitignore, known state, commit before deploy, cache, no-store, rollback, dry run
+- **Keywords:** deploy, verify, served hash, SHA-256, HTTP 200, evidence level, FTPS, certificate, secrets, env file, gitignore, known state, commit before deploy, cache, no-store, rollback, dry run, versioning, version source, release channel, dev channel, release guard, annotated tag, changelog, build stamp, release date, served label
 - **Status:** current
-- **Updated:** 2026-11-01
-- **Sources:** distilled from a Godot web deploy's procedure and lessons (ganvchi-court); engine-specific deploy traps are in `engines/`
+- **Updated:** 2026-11-03
+- **Sources:** distilled from a Godot web deploy's procedure and lessons, and its versioning and release procedure (ganvchi-court); engine-specific deploy traps are in `engines/`
 
 ## Before deploying
 
@@ -39,3 +39,12 @@ HTTP 200 alone proves only that a file exists.
 
 - A transient upload error is retried with the same script and the same transport. Then verify the served hash again. See `recall/80-transient-ftp-451-retry.md`.
 - Do not skip the deploy or switch to an insecure method to get around a transient error.
+
+## Versioning and channels
+
+- **One version source.** Keep the version in one project setting that the build reads. The on-screen label, the footer and the build stamp all read from it; never keep a second copy. Why: two copies drift, and the label then names a version the build does not have.
+- **Give unreleased builds their own path.** Serve the dev or test build from a sub-path (for example `/dev/`) and reserve the root for tagged releases. Why: testers can check a build without replacing the released one.
+- **Guard the release upload.** The release step refuses to upload unless the tree is clean, `HEAD` carries the matching annotated tag, and the changelog has a dated section for that version. A dry-run mode runs the same checks without uploading. Why: a release is a named, reproducible state, and a refusal is cheaper than a bad upload.
+- **Set the release date at tag preparation.** Until then the changelog heading reads a placeholder such as `TBD`. Why: the date belongs to the act of releasing; a date written earlier is wrong if the release slips.
+- **Generate the build stamp, and remove it on exit.** A dev build can stamp the short git hash into a generated file. The file is gitignored and deleted when the build tool exits. Why: a leftover generated file either leaks into a commit or leaves the tree dirty for the next run.
+- **Read the label from the built output.** Check the version label in the artefact that was served or exported, not in the source setting. Why: the source can name one version while the build holds another.
