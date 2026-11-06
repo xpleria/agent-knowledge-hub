@@ -1,7 +1,7 @@
-# Documentation writer: settled facts, tracked work, owner words
+# Documentation writer: settled facts, tracked work, owner decisions
 
-- **Scope:** What does a documentation writer record as settled fact, what waits for owner acceptance, and how are owner words kept exact?
-- **Keywords:** documentation writer, docs, agent-docs, progress file, pending list, acceptance, awaiting owner check, verbatim, paraphrase, proposed, decided, pointer stub, horizon, open question, status wording
+- **Scope:** What does a documentation writer record as settled fact, what waits for owner acceptance, and how are owner decisions recorded without quoting the owner?
+- **Keywords:** documentation writer, docs, agent-docs, progress file, pending list, acceptance, awaiting owner check, neutral wording, decision date, quote conversion, proposed, decided, pointer stub, horizon, open question, status wording
 - **Status:** current
 - **Updated:** 2026-11-03
 - **Sources:** distilled from a Godot project's documentation runs (ganvchi-court); structure in `project-setup/10-docs-and-agent-docs-structure.md`; lifecycle in `project-setup/30-lifecycle-and-acceptance.md`
@@ -13,9 +13,11 @@
 - Use the status `implemented + deployed, awaiting owner check` until the owner speaks.
 - Close a topic by writing its chronicle entry before deleting the forge folder. Once the folder is gone, the entry is the only record of the decisions, commits and acceptances. Correct a written entry with a dated note, not by rewriting it.
 
-## Recording owner words
+## Recording owner decisions
 
-- Quote the owner's words verbatim, in quotation marks, with the date-free status. Mark anything else as a paraphrase.
+- Permanent pages state an owner decision in neutral words, with the decision's date where the date is part of the record. They never quote the owner. See `practices/owner-words-in-docs.md`.
+- Owner quotes belong only in transient docs (forge, horizon, briefs). At close-out, convert each quote to a neutral statement, then delete the quotation marks, before the chronicle entry is written.
+- Record a sign-off as "accepted by the owner on <date>", plus any plain-language qualifier the owner gave.
 - Keep "works", "fixed", "looks good" and "confirmed" as what they are. None of them is "accepted" unless the owner says accepted.
 - Keep accepted items, items awaiting an owner check, and unconfirmed sub-questions in separate lists. An unconfirmed sub-question must not inherit its parent's acceptance.
 - Keep "proposed" and "decided" apart. A proposal carries its reasoning; a decision is only what the owner said.

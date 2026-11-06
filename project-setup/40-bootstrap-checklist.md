@@ -8,7 +8,7 @@
 
 Work through the steps in order. Commit after each group.
 
-1. **Ask the owner** for the project's purpose, its engine or stack, its target platforms and its deploy target. Record the answers as the owner's words. Do not guess a rule.
+1. **Ask the owner** for the project's purpose, its engine or stack, its target platforms and its deploy target. Record the answers as neutral statements in the project's AGENTS.md and docs; quote the owner only in a transient note. Do not guess a rule.
 2. **Create the repository** locally. Do not add a remote or push unless the owner asks.
 3. **Write the project's `AGENTS.md`** from `templates/10-agents-md-template.md`. Keep it short: it links to the docs, states the hard rules, and carries the hub paragraph.
 4. **Create `docs/`** with a `README.md` that states the authority order. Add the tier folders you need, each with a `00-*-index.md`. Do not create empty tiers.

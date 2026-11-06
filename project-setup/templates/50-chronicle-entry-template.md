@@ -5,7 +5,7 @@
 - **Status:** chronicle
 - **Updated:** <YYYY-MM-DD of the last change to this entry>
 - **Sources:** <the topic's index, plan and progress files as they were at close; the commit range>
-- **Sign-off:** <owner, YYYY-MM-DD, verbatim: "...">
+- **Sign-off:** accepted by the owner on <YYYY-MM-DD>; <plain-language qualifier, or none>
 
 ## Summary
 
@@ -13,7 +13,7 @@
 
 ## Decisions
 
-- <Decision, with the owner's words verbatim in quotation marks> (owner, YYYY-MM-DD)
+- <Decision in neutral words, as a plain statement> (owner decision, <YYYY-MM-DD>)
 
 ## What shipped
 
@@ -25,7 +25,7 @@
 
 ## Acceptances
 
-- <Item>: owner, YYYY-MM-DD, verbatim: "..." (keep any qualifier the owner gave)
+- <Item>: accepted by the owner on <YYYY-MM-DD>; <plain-language qualifier, or none>
 
 ## Deferred
 
@@ -39,4 +39,5 @@
 
 - Write this entry once, after sign-off and before the forge folder is deleted. Correct it with a dated note, not by rewriting the text above.
 - Lessons stay in lore. This entry may link to lore but need not.
+- Never quote the owner in this entry. Convert each owner quote to a neutral statement first (hub page `practices/owner-words-in-docs.md`, section "Converting at close-out").
 - Record no tokens, passwords, host names, user names or account identifiers.

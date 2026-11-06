@@ -18,7 +18,7 @@ an agent must never break.>
 
 - A topic moves only after the owner signs off. Passing tests are not sign-off.
 - Docs are updated once, after the owner accepts the item. The pending update lives in the progress file.
-- Record the owner's words verbatim and do not upgrade them to "accepted".
+- Owner decisions go into permanent docs in neutral words, with the decision date where the date is part of the record. Quote the owner only in transient docs (forge, horizon, briefs). Do not upgrade wording to "accepted".
 
 ## Working practices
 

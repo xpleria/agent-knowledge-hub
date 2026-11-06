@@ -29,5 +29,5 @@
 
 ## Notes
 
-- Quote owner words verbatim. Do not turn "works" or "fixed" into "accepted".
+- Quote owner words verbatim here: a forge file is transient. At close-out, convert each quote to a neutral statement before the chronicle entry is written. Do not turn "works" or "fixed" into "accepted".
 - Keep this file to current state. Git keeps the history.

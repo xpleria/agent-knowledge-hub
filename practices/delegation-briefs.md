@@ -3,7 +3,7 @@
 - **Scope:** What must a brief to a delegated agent contain so it can finish the job without guessing and without overclaiming?
 - **Keywords:** brief, delegation, subagent, self-contained, success criteria, hard rules, verbatim, report format, item order, not done, steer
 - **Status:** current
-- **Updated:** 2026-11-01
+- **Updated:** 2026-11-03
 - **Sources:** distilled from a Godot project's orchestration runs (ganvchi-court)
 
 A brief is the only context a delegated agent gets. Make it complete.
@@ -13,7 +13,7 @@ A brief is the only context a delegated agent gets. Make it complete.
 1. **Location:** the exact repository path and branch. Never assume a path; discover it first.
 2. **Skills and pages to read first:** name them, so the brief need not repeat them.
 3. **Hard rules:** restate the project's no-discard and one-writer rules and any protected files.
-4. **The owner's words, verbatim:** quote them in quotation marks. Do not paraphrase a requirement.
+4. **The owner's words, verbatim:** quote them in quotation marks. A brief is transient, so the quote may stay in it. The permanent record of the decision is neutral (see `owner-words-in-docs.md`). Do not paraphrase a requirement in the brief.
 5. **Scope and order:** the items, in order, and what is out of scope.
 6. **Success criteria:** the observable result that proves each item done, for example a test name that must pass or a hash that must match.
 7. **Stop rules:** when to stop and report instead of working around a denial or a failure.

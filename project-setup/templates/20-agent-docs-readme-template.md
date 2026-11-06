@@ -23,7 +23,7 @@ never links back.
 ## Rules
 
 - Before a task, check the forge index. If an active topic covers it, continue that topic.
-- A topic moves only after the owner signs off. Record the sign-off in the topic index with the owner's words.
+- A topic moves only after the owner signs off. Record the sign-off in the topic index as "accepted by the owner on <date>", with any plain-language qualifier the owner gave.
 - A closed topic gets a chronicle entry, written before its forge folder is deleted.
 - Status lives only in a topic's progress file. Keep it to current state and next actions.
 - Files are `NN-topic-slug.md` and folders `NN-topic-slug/`, each with a `00-*-index.md`.

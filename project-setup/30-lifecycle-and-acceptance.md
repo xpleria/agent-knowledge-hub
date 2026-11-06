@@ -8,7 +8,8 @@
 
 ## Sign-off belongs to the owner
 
-- A topic moves only after the project owner signs off. Record the sign-off with the owner's words and a reference in the topic index.
+- A topic moves only after the project owner signs off. Record the sign-off in the topic index as "accepted by the owner on <date>", with any plain-language qualifier the owner gave.
+- Owner quotes never reach a permanent page as quotes. At acceptance or close-out, convert each quote to a neutral statement, then delete the quotation marks (hub: `practices/owner-words-in-docs.md`).
 - Passing tests, a clean review or an agent's own judgement are not sign-off.
 
 ## Transitions

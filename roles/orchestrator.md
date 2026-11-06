@@ -3,7 +3,7 @@
 - **Scope:** How does an orchestrator brief, sequence, verify and report on delegated work so the owner gets verified results and no agent overwrites another?
 - **Keywords:** orchestrator, delegation, subagent brief, steer, one writer per tree, self-report, verification, continuation, denied command, deploy order, owner question, standing list, verbatim, acceptance
 - **Status:** current
-- **Updated:** 2026-11-01
+- **Updated:** 2026-11-03
 - **Sources:** distilled from a Godot project's orchestration lessons (ganvchi-court, agent role lessons); see also `practices/delegation-briefs.md`
 
 ## Delegate and sequence
@@ -16,7 +16,7 @@
 
 ## Brief every subagent
 
-- Give the repo path, branch, skills to load, hard rules, the owner's words verbatim, the item order and the report format.
+- Give the repo path, branch, skills to load, hard rules, the owner's words verbatim (a brief is transient), the item order and the report format.
 - Restate the no-discard rule in every brief. Weak agents reach for `git checkout` to undo experiments.
 - Give precise success criteria and demand an honest "not done" report.
 - Send new owner feedback to a running agent by steering it, not by starting a second writer.
