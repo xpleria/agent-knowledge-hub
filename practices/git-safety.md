@@ -3,6 +3,7 @@
 - **Scope:** How do I undo, reset or set aside work in a git repository without losing anything the owner or another agent wrote?
 - **Keywords:** git, checkout, restore, reset, discard, stash, push -u, worktree, uncommitted work, safe revert, force push, amend, local commits, remote
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Sources:** distilled from a Godot project's git rules and lessons (ganvchi-court); see `recall/` for the scenarios
 
 ## Rules

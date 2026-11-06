@@ -3,6 +3,7 @@
 - **Scope:** Which engine-specific pages exist, and how far do they apply?
 - **Keywords:** engine, Godot, game engine, engine-specific, traps, UI, layout, input, web export
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Sources:** the engine pages' own sources
 
 Engine pages hold traps that are specific to one engine. Each page is labelled with its

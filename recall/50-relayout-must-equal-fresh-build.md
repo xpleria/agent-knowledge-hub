@@ -3,6 +3,7 @@
 - **Scope:** Why did a resized or rotated view differ from one built fresh at the same size, and how is a relayout tested?
 - **Keywords:** relayout, fresh build, fresh layout, rotation, resize, minimum height, wrapped label, scaling, per-control rects, orientation
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Source project:** ganvchi-court
 
 ## What happened

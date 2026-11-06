@@ -3,6 +3,7 @@
 - **Scope:** How should an agent put a question to the owner, and how does it record what the owner said without rewording it?
 - **Keywords:** owner question, decision, options, recommendation, verbatim, quote, paraphrase, accepted, confirmed, works, fixed, standing list, pending, stale premise, scope change
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Sources:** distilled from a Godot project's owner-communication rules (ganvchi-court)
 
 ## Asking

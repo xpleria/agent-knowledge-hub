@@ -3,6 +3,7 @@
 - **Scope:** When a UI test fails but the product works, how do I tell a harness fault from a product fault?
 - **Keywords:** headless, false red, harness, viewport, window size, SubViewport, stage, input events, dialog, ready, anchor
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Source project:** ganvchi-court
 
 ## What happened

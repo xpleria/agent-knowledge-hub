@@ -3,7 +3,8 @@
 - **Scope:** How is a new project's documentation laid out, and which starter files and steps bootstrap it from the hub?
 - **Keywords:** project setup, bootstrap, new project, docs, agent-docs, lifecycle, lore, forge, horizon, naming, index, templates, acceptance, deploy
 - **Status:** current
-- **Sources:** distilled from the documentation structure of a Godot project (ganvchi-court) and a second project that uses a flatter `agent-docs/` layout; generalised here
+- **Updated:** 2026-11-01
+- **Sources:** distilled from the documentation structure of a Godot project (ganvchi-court); generalised here
 
 Read this when an agent sets up a new project, or when an existing project has no
 agreed docs structure. Start with the bootstrap checklist, then fill in the templates.

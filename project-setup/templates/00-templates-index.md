@@ -3,6 +3,7 @@
 - **Scope:** Which starter files can an agent copy into a new project, and what does each one hold?
 - **Keywords:** templates, starter, AGENTS.md, agent-docs README, forge topic, horizon item, copy, placeholders, bootstrap
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Sources:** this hub's `project-setup/40-bootstrap-checklist.md`
 
 Copy a template into the new project, then replace every `<placeholder>`. Delete any

@@ -3,6 +3,7 @@
 - **Scope:** What does an agent create, in what order, when it sets up a new project to use the hub's conventions?
 - **Keywords:** bootstrap, new project, setup, checklist, AGENTS.md, docs, agent-docs, forge, horizon, lore, templates, gitignore, secrets, first commit
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Sources:** this hub's `project-setup/` pages and `templates/`; derived from a Godot project's layout (ganvchi-court)
 
 Work through the steps in order. Commit after each group.

@@ -3,6 +3,7 @@
 - **Scope:** When code disappears after another agent's uncommitted refactor, is the work lost, or only cut off from its callers?
 - **Keywords:** wiring cut, work reverted, concurrent refactor, restore, HEAD, parse error, call sites, methods removed, mechanical restore, parsed body
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Source project:** ganvchi-court
 
 ## What happened

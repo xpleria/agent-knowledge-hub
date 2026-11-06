@@ -3,6 +3,7 @@
 - **Scope:** What went wrong when two agents edited one working tree at the same time, and how is it prevented?
 - **Keywords:** two writers, one writer per tree, concurrent edits, tangled commits, collision, CRLF, line endings, queue
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Source project:** ganvchi-court
 
 ## What happened

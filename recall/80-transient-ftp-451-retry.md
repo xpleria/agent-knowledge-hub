@@ -3,6 +3,7 @@
 - **Scope:** What should an agent do when a deploy upload fails with a transient 451 error?
 - **Keywords:** FTP, FTPS, 451, transient, retry, upload, index.pck, served hash, deploy, transport
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Source project:** ganvchi-court
 
 ## What happened

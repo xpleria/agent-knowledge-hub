@@ -3,6 +3,7 @@
 - **Scope:** When players still see an old build after a correct deploy, how do I tell a stale cache from a code fault?
 - **Keywords:** browser cache, stale build, no-store, cache-control, served hash, deploy, revalidate, old pack
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Source project:** ganvchi-court
 
 ## What happened

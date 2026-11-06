@@ -3,6 +3,7 @@
 - **Scope:** How does work move between future, active, accepted and cancelled states, and when do the settled-facts docs get updated?
 - **Keywords:** lifecycle, acceptance, sign-off, commencement, deferral, cancellation, forge, horizon, lore, progress file, docs timing, pending list, awaiting owner check, woven lessons, status wording
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Sources:** distilled from a Godot project's work lifecycle (ganvchi-court `agent-docs/README.md`, `AGENTS.md` *Documentation and work tracking*)
 
 ## Sign-off belongs to the owner

@@ -3,6 +3,7 @@
 - **Scope:** Why did adding an icon shift the centred controls next to it, and how is the slot built so siblings stay put?
 - **Keywords:** container, minimum size, icon, sibling shift, centred, fixed slot, anchors, overhang, layout shift, rect comparison
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Source project:** ganvchi-court
 
 ## What happened

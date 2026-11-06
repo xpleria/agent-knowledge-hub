@@ -3,6 +3,7 @@
 - **Scope:** Why did a delegated run stop when it tried a recursive delete, and what should a brief say instead?
 - **Keywords:** rm -rf, recursive delete, denied, approval, auto-deny, screenshots, cleanup, brief, stop
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Source project:** ganvchi-court
 
 ## What happened

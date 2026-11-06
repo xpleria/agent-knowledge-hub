@@ -3,6 +3,7 @@
 - **Scope:** What is the current state of this workstream and what are the next actions?
 - **Keywords:** <topic slug>, progress, status, next actions, pending docs, awaiting owner check, blocked, queued
 - **Status:** forge: active
+- **Updated:** <YYYY-MM-DD>
 - **Sources:** <playbook and plan files in this folder>
 - **Sign-off:** <owner's words, verbatim, with reference; "none yet" until given>
 

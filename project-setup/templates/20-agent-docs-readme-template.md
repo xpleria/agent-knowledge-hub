@@ -3,6 +3,7 @@
 - **Scope:** What does the work-lifecycle tree hold, and how does an agent move through it?
 - **Keywords:** agent-docs, lore, forge, horizon, lifecycle, work tracking, progress, index, sign-off
 - **Status:** current
+- **Updated:** <YYYY-MM-DD>
 - **Sources:** the project's `docs/README.md`; the hub's `project-setup/30-lifecycle-and-acceptance.md`
 
 This tree holds the work lifecycle of this project: what is in progress, what may come

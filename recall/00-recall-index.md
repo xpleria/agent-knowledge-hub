@@ -3,6 +3,7 @@
 - **Scope:** How does an agent find a past scenario or lesson in the recall journal when the owner asks for it?
 - **Keywords:** recall, remember, search, grep, journal, scenario, lesson, index, keywords, source project
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Sources:** the entries listed below; `contribute.md` (*Add a recall entry*)
 
 ## How to search

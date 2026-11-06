@@ -3,6 +3,7 @@
 - **Scope:** Who edits a protected instruction file such as the project's AGENTS.md, and what happens when a subagent's write is refused?
 - **Keywords:** protected file, AGENTS.md, instruction file, approval, write refused, orchestrator, implementer, owner prompt
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Source project:** ganvchi-court
 
 ## What happened

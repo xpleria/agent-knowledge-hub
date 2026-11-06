@@ -3,6 +3,7 @@
 - **Scope:** What happens when a delegated report says work "landed" without evidence, and how should an orchestrator check the claim?
 - **Keywords:** overclaim, landed, done, self-report, git log, evidence, continuation, step 0, verification
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Source project:** ganvchi-court
 
 ## What happened

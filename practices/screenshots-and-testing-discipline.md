@@ -3,6 +3,7 @@
 - **Scope:** How should an agent capture, view and describe screenshots and test renders so the owner can trust them?
 - **Keywords:** screenshot, capture, render, real background, device size, phone size, zoomed crop, annotation, vision review, blank render, unrepresentative, headless, device steps, orientation
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Sources:** distilled from a Godot project's capture and review practice (ganvchi-court)
 
 ## Rules

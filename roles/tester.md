@@ -3,7 +3,8 @@
 - **Scope:** What must a tester exercise to show a fix works, which claims may the report make, and what must it say was not verified?
 - **Keywords:** tester, end-user action, timing, wall-clock delay, fresh layout, orientation, red test, mutation check, full suite, harness, false red, screenshot, device steps, served hash, non-reproduction, evidence level
 - **Status:** current
-- **Sources:** distilled from a Godot project's verification runs (ganvchi-court); see `practices/20-evidence-and-verification.md` and `practices/50-screenshots-and-testing-discipline.md`
+- **Updated:** 2026-11-01
+- **Sources:** distilled from a Godot project's verification runs (ganvchi-court); see `practices/evidence-and-verification.md` and `practices/screenshots-and-testing-discipline.md`
 
 ## What to exercise
 

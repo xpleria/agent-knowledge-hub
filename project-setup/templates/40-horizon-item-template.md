@@ -3,6 +3,7 @@
 - **Scope:** What is this future work, and why is it not yet planned?
 - **Keywords:** <topic slug>, horizon, deferred, idea, future work, <other searchable terms>
 - **Status:** horizon: idea
+- **Updated:** <YYYY-MM-DD>
 - **Sources:** <where the idea came from, for example the owner's words or a review note>
 - **Sign-off:** none; the owner has not committed to this work
 

@@ -3,6 +3,7 @@
 - **Scope:** What does a documentation writer record as settled fact, what waits for owner acceptance, and how are owner words kept exact?
 - **Keywords:** documentation writer, docs, agent-docs, progress file, pending list, acceptance, awaiting owner check, verbatim, paraphrase, proposed, decided, pointer stub, horizon, open question, status wording
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Sources:** distilled from a Godot project's documentation runs (ganvchi-court); structure in `project-setup/10-docs-and-agent-docs-structure.md`; lifecycle in `project-setup/30-lifecycle-and-acceptance.md`
 
 ## Timing

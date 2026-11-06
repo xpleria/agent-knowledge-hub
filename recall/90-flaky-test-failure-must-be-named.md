@@ -3,6 +3,7 @@
 - **Scope:** How should an agent report a test that failed in a full run and then passed on a rerun?
 - **Keywords:** flaky, intermittent, failing test, test name, full suite, rerun, output file, unexplained, recur
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Source project:** ganvchi-court
 
 ## What happened

@@ -3,6 +3,7 @@
 - **Scope:** Why did one tap on a dialog's scrim also trigger the control behind it, and what must input handling absorb?
 - **Keywords:** touch, emulate_mouse_from_touch, emulated mouse, pointer, press, release, scrim, dialog, modal, absorb, click-through
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Source project:** ganvchi-court
 
 ## What happened

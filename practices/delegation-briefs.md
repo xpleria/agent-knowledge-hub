@@ -3,6 +3,7 @@
 - **Scope:** What must a brief to a delegated agent contain so it can finish the job without guessing and without overclaiming?
 - **Keywords:** brief, delegation, subagent, self-contained, success criteria, hard rules, verbatim, report format, item order, not done, steer
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Sources:** distilled from a Godot project's orchestration runs (ganvchi-court)
 
 A brief is the only context a delegated agent gets. Make it complete.

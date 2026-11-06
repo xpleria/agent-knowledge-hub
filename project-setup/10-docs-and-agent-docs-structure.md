@@ -3,6 +3,7 @@
 - **Scope:** What belongs in a project's `docs/` tree and what belongs in its `agent-docs/` tree?
 - **Keywords:** docs, agent-docs, settled facts, normative, descriptive, authority order, lore, forge, horizon, work lifecycle, boundary, one-way links
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Sources:** distilled from a Godot project's `docs/README.md` and `agent-docs/README.md` (ganvchi-court)
 
 Every project keeps two trees, separated by one boundary.
