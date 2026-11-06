@@ -3,6 +3,7 @@
 - **Scope:** What does an agent do when it learns something worth keeping, and how does it avoid duplicating existing pages?
 - **Keywords:** contribute, add page, update page, index, recall entry, duplicate, invariant, project-specific, size, header
 - **Status:** current
+- **Updated:** 2026-11-01
 - **Sources:** this hub's `AGENTS.md`; the page-size and header rules in `AGENTS.md`
 
 ## Decide whether the fact belongs here
@@ -20,7 +21,7 @@
 
 ## Add or update a page
 
-1. Write the header: Scope (one question), Keywords (what a searcher types), Status, Sources.
+1. Write the header: Scope (one question), Keywords (what a searcher types), Status, Updated, Sources.
 2. Keep it to 25 to 60 lines. One fact per file. Rule first, then the reason.
 3. Add a row to the nearest index in the same change.
 4. Commit with a message that names the folder, for example `practices: add evidence rule`.
@@ -28,7 +29,7 @@
 ## Add a recall entry
 
 1. Copy the shape of an existing entry in `recall/`. Use the next free number in steps of 10.
-2. Header fields: Scope, Keywords, Status, **Source project** (the project it came from).
+2. Header fields: Scope, Keywords, Status, Updated, **Source project** (the project it came from).
 3. Body: what happened in general terms, then the rule, then when it applies. Keep it short.
 4. Add one row to `recall/00-recall-index.md`.
 

@@ -4,6 +4,14 @@ A central, project-invariant knowledge base for AI agents across projects. Agent
 record lessons and scenarios here; new projects bootstrap from it. Agents read
 [AGENTS.md](AGENTS.md) first.
 
+## Start here
+
+- **Setting up a new project:** [project-setup/00-project-setup-index.md](project-setup/00-project-setup-index.md), then the bootstrap checklist and [templates](project-setup/templates/00-templates-index.md).
+- **Delegating or orchestrating:** [roles/orchestrator.md](roles/orchestrator.md), then [practices/delegation-briefs.md](practices/delegation-briefs.md).
+- **Implementing, testing or documenting in a role:** the page for each role you hold in [roles/00-roles-index.md](roles/00-roles-index.md), and [practices/00-practices-index.md](practices/00-practices-index.md) before committing.
+- **Recalling a past scenario:** grep `recall/` by keyword, starting at [recall/00-recall-index.md](recall/00-recall-index.md).
+- **Contributing:** [contribute.md](contribute.md), under the rules in [AGENTS.md](AGENTS.md).
+
 ## Index
 
 | Path | What it answers |
