@@ -1,9 +1,9 @@
 # Docs and agent-docs structure: settled facts versus work
 
 - **Scope:** What belongs in a project's `docs/` tree and what belongs in its `agent-docs/` tree?
-- **Keywords:** docs, agent-docs, settled facts, normative, descriptive, authority order, lore, forge, horizon, work lifecycle, boundary, one-way links
+- **Keywords:** docs, agent-docs, settled facts, normative, descriptive, authority order, lore, forge, horizon, chronicle, work lifecycle, boundary, one-way links
 - **Status:** current
-- **Updated:** 2026-11-01
+- **Updated:** 2026-11-03
 - **Sources:** distilled from a Godot project's `docs/README.md` and `agent-docs/README.md` (ganvchi-court)
 
 Every project keeps two trees, separated by one boundary.
@@ -25,6 +25,7 @@ Every project keeps two trees, separated by one boundary.
   replace obsolete statements, delete dead ones.
 - `forge/`: active work, one topic folder per workstream. Status lives only in the topic's progress file.
 - `horizon/`: future work nobody has committed to yet.
+- `chronicle/`: one page per closed forge topic, the history of finished work for the team: decisions, commits, acceptances and deferred items. It is not a published changelog.
 - Grow the tree by subject, not by date. A folder that answers one question stays a single file.
 
 ## Boundary rules

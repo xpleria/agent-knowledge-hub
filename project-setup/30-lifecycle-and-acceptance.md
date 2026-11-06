@@ -1,9 +1,9 @@
 # Lifecycle and acceptance
 
 - **Scope:** How does work move between future, active, accepted and cancelled states, and when do the settled-facts docs get updated?
-- **Keywords:** lifecycle, acceptance, sign-off, commencement, deferral, cancellation, forge, horizon, lore, progress file, docs timing, pending list, awaiting owner check, woven lessons, status wording
+- **Keywords:** lifecycle, acceptance, sign-off, commencement, deferral, cancellation, forge, horizon, chronicle, lore, progress file, docs timing, pending list, awaiting owner check, woven lessons, status wording
 - **Status:** current
-- **Updated:** 2026-11-01
+- **Updated:** 2026-11-03
 - **Sources:** distilled from a Godot project's work lifecycle (ganvchi-court `agent-docs/README.md`, `AGENTS.md` *Documentation and work tracking*)
 
 ## Sign-off belongs to the owner
@@ -16,11 +16,12 @@
 | Sign-off | Effect |
 | --- | --- |
 | Commencement | Topic moves from horizon (or nowhere) into the active forge, with playbook, plan and progress files. |
-| Acceptance | Facts go to `docs/`, lessons are woven into lore, any deferred remainder goes to horizon, and the forge topic is deleted. |
+| Acceptance | Facts go to `docs/`, lessons are woven into lore, any deferred remainder goes to horizon, a chronicle entry is written, and then the forge topic is deleted. |
 | Deferral | Topic moves back to horizon. |
 | Cancellation | Lessons are woven into lore; the rest is dropped (git keeps it). |
 
 - Never start a parallel topic for work that an active topic already covers. Continue that topic.
+- Write the chronicle entry before deleting the forge folder. Once the folder is gone, the entry is the only record of the topic's decisions, commits and acceptances.
 
 ## When docs change
 
