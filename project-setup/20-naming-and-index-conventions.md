@@ -9,7 +9,7 @@
 
 - Files and folders are lowercase, hyphen-separated, with a two-digit prefix: `NN-topic-slug.md` and `NN-topic-slug/`. The only uppercase file is `README.md`.
 - The slug names the topic. Never use a role word alone: `20-pacing-choreography.md`, not `20-choreography.md`, `plan.md` or `PROGRESS.md`.
-- No version, status or date suffixes (`-v2`, `-old`, `-final`, `-2026-10-05`). History lives in git.
+- No version, status or date suffixes (`-v2`, `-old`, `-final`, `-<date>`). History lives in git.
 - Within one tree, a name minus its number is unique, so any file can be cited by its name alone.
 
 ## Numbers
