@@ -8,11 +8,11 @@
 
 Rule first: a proposed decision is not settled, so it never sits in `docs/`, not even under a "Proposed" status.
 
-## While it is proposed
+## Before commencement
 
-- While it is being decided, it lives in its forge topic, in the decisions file `40-<slug>-decisions.md` (see [33-forge-topic-file-set.md](33-forge-topic-file-set.md)).
-- While it is parked, it lives in `03-horizon/` as a horizon item.
-- A migration moves every proposed record out of `docs/`, into the forge topic or horizon.
+- While it is under decision, and before its work commences, a proposal lives in `03-horizon/` as a horizon item (see [35-horizon-item-shape.md](35-horizon-item-shape.md)).
+- After commencement, it lives in its forge topic, in the decisions file `40-<slug>-decisions.md` (see [33-forge-topic-file-set.md](33-forge-topic-file-set.md)).
+- A migration moves every proposed record out of `docs/`: into horizon if it is not started, into the forge topic if it is.
 
 ## On acceptance
 

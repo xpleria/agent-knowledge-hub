@@ -27,6 +27,7 @@ Rule first: the kind of fact decides which side is wrong.
 
 ## Citing code
 
-- Cite code as the path and symbol, or as `path:line`. Re-check each anchor when the cited file changes (see [27-one-question-and-citations.md](27-one-question-and-citations.md)).
+- Permanent pages (docs, lore, the hub) cite code as the path and the symbol or heading. No line numbers there; a line number goes stale with the next edit.
+- Transient pages (forge, horizon, evidence) may cite `path:line`. Prefer the symbol where one exists, and re-check each anchor when the cited file changes (see [27-one-question-and-citations.md](27-one-question-and-citations.md)).
 
 *Why:* a rule in code is a guess about intent, and a rule in docs is the record of intent. Only the owner settles which one was meant.
