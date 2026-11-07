@@ -25,6 +25,7 @@ These rules govern a project's docs, never the hub's own folders (see
 - Creating a forge topic or its files: read [33-forge-topic-file-set.md](33-forge-topic-file-set.md).
 - Adding or leaving horizon: read [35-horizon-item-shape.md](35-horizon-item-shape.md).
 - Writing a lesson into lore: read [36-lore-rules.md](36-lore-rules.md).
+- Keeping evidence or a helper program: read [37-evidence-and-helpers.md](37-evidence-and-helpers.md), then [55-evidence-index-format.md](55-evidence-index-format.md).
 - Setting up deploy and verification: read [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md).
 - Starter files: [templates/00-templates-index.md](templates/00-templates-index.md).
 
@@ -48,6 +49,8 @@ These rules govern a project's docs, never the hub's own folders (see
 | [33-forge-topic-file-set.md](33-forge-topic-file-set.md) | Which files does a forge topic folder hold, and when is each one created? |
 | [35-horizon-item-shape.md](35-horizon-item-shape.md) | What must a horizon item say, when does it grow into a folder, and how does it leave horizon? |
 | [36-lore-rules.md](36-lore-rules.md) | What belongs in lore, and how is a lesson woven into it? |
+| [37-evidence-and-helpers.md](37-evidence-and-helpers.md) | Where does evidence live, which evidence is kept, and where do helper programs go? |
 | [40-bootstrap-checklist.md](40-bootstrap-checklist.md) | What do I create, in what order, when I set up a project? |
 | [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md) | How do I deploy and prove a deploy is live, and how do I version and release it? |
+| [55-evidence-index-format.md](55-evidence-index-format.md) | Which columns does an evidence index carry? |
 | [templates/00-templates-index.md](templates/00-templates-index.md) | Which starter files can I copy? |

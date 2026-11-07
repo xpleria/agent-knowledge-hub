@@ -22,6 +22,7 @@
 ## Proving a deploy
 
 Evidence levels. Each proves only itself; report the level you reached, never a higher one.
+These levels are a different concept from evidence files (see [37-evidence-and-helpers.md](37-evidence-and-helpers.md)).
 
 1. **Served bytes.** The artefact is on the host: status, headers and a hash of the main file match the local copy.
 2. **Shipped behaviour.** The shipped code does what the change claims. A text search of a compiled artefact proves nothing; call the shipped code.

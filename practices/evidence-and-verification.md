@@ -24,4 +24,5 @@ an unverified "done" is expensive. See `recall/10-subagent-claimed-landed-withou
 ## Reporting format
 
 - A table: claim, commit or evidence, level reached, not verified.
+- "Evidence levels" (served bytes, shipped behaviour, browser render, device) name how far a check reached. They are not evidence files (see [project-setup/37-evidence-and-helpers.md](../project-setup/37-evidence-and-helpers.md)).
 - Keep "implemented", "tested", "deployed" and "accepted" as separate words. Only the owner's acceptance gives "accepted".
