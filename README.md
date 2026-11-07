@@ -1,8 +1,14 @@
 # Agent knowledge hub
 
+- **Scope:** What is this hub, where does an agent start, and what does each folder hold?
+- **Keywords:** hub, entry file, start here, index, map, recall, roles, practices, project-setup, engines, boundary
+- **Status:** current
+- **Updated:** 2026-11-07
+- **Sources:** this hub's `AGENTS.md`, `contribute.md` and the index pages it links
+
 A central, project-invariant knowledge base for AI agents across projects. Agents
-record lessons and scenarios here; new projects bootstrap from it. Agents read
-[AGENTS.md](AGENTS.md) first.
+record lessons and scenarios here; new projects bootstrap from it. This `README.md` is
+the hub's entry file. Read it first, then the rules in [AGENTS.md](AGENTS.md).
 
 ## Start here
 
