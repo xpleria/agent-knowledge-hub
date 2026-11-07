@@ -11,7 +11,7 @@ an agent must never break.>
 
 - Read `docs/README.md` first. Facts are in `docs/`; work tracking is in `agent-docs/`.
 - Read the tier files the task touches, in authority order, and stop once the question is answered.
-- Before a task, check `agent-docs/forge/00-forge-index.md` for an active topic. Continue it; never start a parallel one.
+- Before a task, check `agent-docs/02-forge/00-forge-index.md` for an active topic. Continue it; never start a parallel one.
 - Never infer a rule from code when `docs/` states it. If they disagree, the code is wrong. If the rules are ambiguous, stop and ask the owner.
 
 ## Work tracking

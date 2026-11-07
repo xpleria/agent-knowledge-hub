@@ -1,43 +1,40 @@
-# Chronicle entry: <Topic title> (chronicle)
+# Chronicle entry: <Topic title>
 
-- **Scope:** <the one question this entry answers: what the topic was, and how it closed>
-- **Keywords:** <topic slug, identifiers, commit-level terms a searcher would type>
+- **Scope:** Which forge topic closed, when, and where did its facts, lessons and deferred items go?
+- **Keywords:** <topic slug>, closed, acceptance, sign-off, commit range, facts moved, lessons moved, deferred
 - **Status:** chronicle
 - **Updated:** <YYYY-MM-DD of the last change to this entry>
-- **Sources:** <the topic's index, plan and progress files as they were at close; the commit range>
-- **Sign-off:** accepted by the owner on <YYYY-MM-DD>; <plain-language qualifier, or none>
+- **Sources:** the topic's index as it stood at close; the commit range below
+- **Sign-off:** accepted by the owner on <YYYY-MM-DD>; reference: <message id, link, commit or PR>; <plain-language qualifier, or none>
 
-## Summary
+## Closed
 
-<A short paragraph: what the topic set out to do, and how it ended.>
+- <YYYY-MM-DD>: closed by owner acceptance of <the whole topic, or the named part only>.
 
-## Decisions
+## Facts went to
 
-- <Decision in neutral words, as a plain statement> (owner decision, <YYYY-MM-DD>)
+- <docs page, relative link>: <one line: what the page now states>
+- <none, if the topic changed no settled fact>
 
-## What shipped
+## Lessons went to
 
-- <Item, with its commit hash(es)>
-
-## Commits
-
-- <hash> <subject line>
-
-## Acceptances
-
-- <Item>: accepted by the owner on <YYYY-MM-DD>; <plain-language qualifier, or none>
+- <lore page, relative link>: <one line: the subject it was woven into>
+- <none, if the topic produced no lesson>
 
 ## Deferred
 
-- <Item> → [horizon <NN>](<relative link to the horizon page>)
+- <item> → [horizon <NN>](<relative link to the horizon page>)
+- <none, if nothing was deferred>
 
-## Links
+## Commits
 
-- <Optional: lore or docs pages. Omit the section if there are none.>
+- <first-hash>..<last-hash>
 
 ## Notes
 
-- Write this entry once, after sign-off and before the forge folder is deleted. Correct it with a dated note, not by rewriting the text above.
-- Lessons stay in lore. This entry may link to lore but need not.
-- Never quote the owner in this entry. Convert each owner quote to a neutral statement first (hub page `practices/owner-words-in-docs.md`, section "Converting at close-out").
+- Write this entry once, after sign-off and before the forge folder is deleted.
+- Shed everything else: git history keeps the commits, rounds and drafts. Cite a commit SHA when an old detail is needed.
+- No commit lists, no round logs, no narrative. Facts belong in docs and lessons in lore.
+- Keep the dates. Correct this entry only by adding a dated note at the end; never rewrite the text above.
+- Never quote the owner here. Give the sign-off reference as a message id, link, commit or PR.
 - Record no tokens, passwords, host names, user names or account identifiers.
