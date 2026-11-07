@@ -24,7 +24,7 @@
 | --- | --- |
 | [<NN-child-slug>.md](<NN-child-slug>.md) | <One-line question the child answers.> |
 
-<agent-docs forge indexes add a Status column: `forge: active | paused | blocked`, with a one-line summary that links to the progress file. Do not repeat status content here.>
+<agent-docs folders add a Status column only where status applies. Forge cells hold `forge: active | paused | blocked` and link to the progress file. Horizon cells hold `horizon: deferred | idea`. Do not repeat status content here.>
 
 Keep this index free of substance beyond the summary. Update it in the same change that
 adds, renames, moves or removes a child.
