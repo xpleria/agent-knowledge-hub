@@ -3,8 +3,8 @@
 - **Scope:** How should a project deploy and prove a deploy is live, without leaking secrets or trusting a status code alone?
 - **Keywords:** deploy, verify, served hash, SHA-256, HTTP 200, evidence level, FTPS, certificate, secrets, env file, gitignore, known state, commit before deploy, cache, no-store, rollback, dry run, versioning, version source, release channel, dev channel, release guard, annotated tag, changelog, build stamp, release date, served label
 - **Status:** current
-- **Updated:** 2026-11-03
-- **Sources:** distilled from a Godot web deploy's procedure and lessons, and its versioning and release procedure (ganvchi-court); engine-specific deploy traps are in `engines/`
+- **Updated:** 2026-11-07
+- **Sources:** distilled from a Godot web deploy's procedure and lessons, and its versioning and release procedure; engine-specific deploy traps are in `engines/`
 
 ## Before deploying
 

@@ -3,8 +3,8 @@
 - **Scope:** How are files, folders, indexes, headers and splits named and maintained in a new project's docs tree?
 - **Keywords:** naming, numbering, NN-slug, index, 00 index, 99 evidence, header, scope, keywords, status, sources, split, promote, merge, gaps, lowercase, no dates, no version suffix
 - **Status:** current
-- **Updated:** 2026-11-01
-- **Sources:** distilled from the conventions in a Godot project's `docs/README.md` and `agent-docs/README.md` (ganvchi-court)
+- **Updated:** 2026-11-07
+- **Sources:** distilled from the conventions in a Godot project's `docs/README.md` and `agent-docs/README.md`
 
 ## Names
 

@@ -3,8 +3,8 @@
 - **Scope:** How does work move between future, active, accepted and cancelled states, and when do the settled-facts docs get updated?
 - **Keywords:** lifecycle, acceptance, sign-off, commencement, deferral, cancellation, forge, horizon, chronicle, lore, progress file, docs timing, pending list, awaiting owner check, woven lessons, status wording
 - **Status:** current
-- **Updated:** 2026-11-03
-- **Sources:** distilled from a Godot project's work lifecycle (ganvchi-court `agent-docs/README.md`, `AGENTS.md` *Documentation and work tracking*)
+- **Updated:** 2026-11-07
+- **Sources:** distilled from a Godot project's work lifecycle (the project's `agent-docs/README.md` and its `AGENTS.md` *Documentation and work tracking* section)
 
 ## Sign-off belongs to the owner
 
@@ -17,12 +17,12 @@
 | Sign-off | Effect |
 | --- | --- |
 | Commencement | Topic moves from horizon (or nowhere) into the active forge, with playbook, plan and progress files. |
-| Acceptance | Facts go to `docs/`, lessons are woven into lore, any deferred remainder goes to horizon, a chronicle entry is written, and then the forge topic is deleted. |
+| Acceptance | Facts go to `docs/`, lessons are woven into lore, any deferred remainder goes to horizon, a thin chronicle entry is written (closed date, sign-off reference, where facts and lessons went, deferred links, one commit range), and then the forge topic is deleted. Everything else is shed; git history keeps it, and an old detail is found by its commit SHA. |
 | Deferral | Topic moves back to horizon. |
-| Cancellation | Lessons are woven into lore; the rest is dropped (git keeps it). |
+| Cancellation | Lessons are woven into lore; the rest is shed (git keeps it). |
 
 - Never start a parallel topic for work that an active topic already covers. Continue that topic.
-- Write the chronicle entry before deleting the forge folder. Once the folder is gone, the entry is the only record of the topic's decisions, commits and acceptances.
+- Write the chronicle entry before deleting the forge folder. Once the folder is gone, the entry is the register of the closed topic: its date, its sign-off, and where its facts and lessons went.
 
 ## When docs change
 
