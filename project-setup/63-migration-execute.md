@@ -6,12 +6,12 @@
 - **Updated:** 2026-11-07
 - **Sources:** the owner's lifecycle prompt, section 5 (Phase 3), merged into this hub 2026-11-07; [45-git-rules.md](45-git-rules.md); [36-lore-rules.md](36-lore-rules.md)
 
-Rule first: execute only what the owner approved, and keep pure renames apart from content edits.
+Rule first: execute only what the owner approved, and keep each rename commit apart from content edits.
 
 ## Steps
 
 1. **Skeleton.** Create the tree roots, the stage and tier folders, and their indexes, with headers.
-2. **Move and rename** with `git mv`. Content edits come after the moves. If commits are permitted, commit the pure renames in their own commit, then the content edits (see [45-git-rules.md](45-git-rules.md)).
+2. **Move and rename** with `git mv`. Content edits come after the moves. If commits are permitted, commit each rename as a rename commit: the `git mv` plus only the link repoints that the rename breaks. Then commit the content edits separately (see [45-git-rules.md](45-git-rules.md) and [practices/commit-granularity.md](../practices/commit-granularity.md)).
 3. **Weave.** Split, merge and rewrite into the target files, add headers, and shed dead material (see [36-lore-rules.md](36-lore-rules.md)). Normative text in `docs/` changes in meaning only with explicit owner approval.
 4. **Helpers.** Relocate kept helpers to the tooling folder, delete throwaway helpers, and exclude or ignore sidecars (see [37-evidence-and-helpers.md](37-evidence-and-helpers.md)).
 5. **References.** Update every inbound reference from the Phase 1 list: docs, agent files, code comments, tests, tooling and CI. Code comments cite `docs/` facts, never `agent-docs/` paths.

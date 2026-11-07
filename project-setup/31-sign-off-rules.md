@@ -35,10 +35,16 @@ work is finished is a claim to verify, not a decision.
 ## Form of the field
 
 - Form: `<commenced | accepted | partly accepted | deferred | cancelled> by the owner on
-  YYYY-MM-DD; reference: <message id, link, commit or PR>; <qualifier, or none>`.
+  <YYYY-MM-DD or not recorded>; reference: <message id, link, commit or PR, or not recorded>;
+  <qualifier, or none>`.
 - The reference is a message id, a link, a commit or a PR.
 - A pre-existing sign-off with no traceable reference is written `reference: not recorded`.
   Never invent a reference.
+- A pre-existing sign-off whose date cannot be traced is written `by the owner on not recorded`.
+  Never invent a date. Use the date only when the sign-off or its record shows it.
+- A topic closed without acceptance and later reopened is not a new commencement. Record it
+  as `commenced by the owner on <date>; reference: <ref>; reopened as paused; <reason>`, with
+  the owner's reason for reopening in the qualifier. Keep the original closing record as it was.
 - A short owner quote may serve as the reference only in transient pages: forge, horizon and
   briefs. Chronicle entries, lore and docs record the date and a non-quote reference.
 - The qualifier is the owner's plain-language qualification, written as a neutral statement.

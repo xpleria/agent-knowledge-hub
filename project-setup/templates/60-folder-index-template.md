@@ -2,7 +2,7 @@
 
 - **Scope:** What does this folder cover, and which child answers which question?
 - **Keywords:** <folder slug>, index, reading guide, children, map, <other searchable terms>
-- **Status:** current
+- **Status:** <current for docs pages and tree-root README.md files; for an agent-docs stage index, the stage label from project-setup/26-status-vocabulary.md, never `current`>
 - **Updated:** <YYYY-MM-DD>
 - **Sources:** <the pages this index summarises, or the rule it applies>
 - **Sign-off:** <agent-docs indexes only: `none` unless a transition created the index; then the sign-off, in the form set by project-setup/31-sign-off-rules.md>

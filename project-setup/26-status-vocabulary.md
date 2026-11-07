@@ -9,13 +9,13 @@
 Rule first: a page's Status is one value from the table below. It names the stage the page is in,
 not the status of the work inside it.
 
-| Stage | Values |
+| Page | Values |
 | --- | --- |
-| Docs | `current` |
-| Lore | `lore` |
-| Forge | `forge: active`, `forge: paused`, `forge: blocked` |
-| Horizon | `horizon: deferred`, `horizon: idea` |
-| Chronicle | `chronicle` |
+| Docs pages, and tree-root `README.md` files | `current` |
+| Lore index | `lore` |
+| Forge index | `forge: active`, `forge: paused`, `forge: blocked` |
+| Horizon index | `horizon: deferred`, `horizon: idea` |
+| Chronicle index | `chronicle` |
 
 ## What a value does not mean
 
@@ -40,7 +40,9 @@ tell which value applies.
 
 ## Stage label and status content
 
-- The header Status is the stage label. Only the progress file holds status content: current
+- The header Status is the stage label. A stage index (lore, forge, horizon, chronicle) carries
+  its stage's label from the table, never `current`. Only tree-root `README.md` files and docs
+  pages use `current`. Only the progress file holds status content: current
   state, next actions and blockers.
 - An index carries a one-line summary of a topic's status and a link to its progress file. It
   never repeats the status content.
