@@ -22,7 +22,7 @@
 
 ## Report
 
-- Say what was verified and at which level: headless, served artefact, shipped behaviour, browser render, or device. Never claim a higher level than you reached.
+- Say what was verified and at which level: headless suite, served artefact (deploy transfer), shipped behaviour (runtime check), browser flow interaction, or device review. Name what each level does not prove (see [practices/evidence-levels.md](../practices/evidence-levels.md)). Never claim a higher level than you reached.
 - Give the owner exact device steps for anything you could not reproduce.
 - A non-reproduction is a valid result. Report it with steps; do not guess a fix.
 - Verify a deployed build by comparing the local and served hashes with an independent request, then run the browser check. HTTP 200 alone proves only that the file exists.

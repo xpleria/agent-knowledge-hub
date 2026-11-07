@@ -26,6 +26,7 @@ These habits apply in any project. A project's own rules override them.
 | --- | --- |
 | [delegation-briefs.md](delegation-briefs.md) | What must a brief to a subagent contain? |
 | [evidence-and-verification.md](evidence-and-verification.md) | What evidence gates a claim, and how are reports worded? |
+| [evidence-levels.md](evidence-levels.md) | Which evidence level did a check reach, and what does it not prove? |
 | [git-safety.md](git-safety.md) | How do I undo or set work aside without losing anything? |
 | [one-writer-per-tree.md](one-writer-per-tree.md) | How do parallel agents share a working tree without collisions? |
 | [screenshots-and-testing-discipline.md](screenshots-and-testing-discipline.md) | How do I capture and judge visual evidence honestly? |
