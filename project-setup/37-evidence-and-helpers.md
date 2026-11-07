@@ -38,6 +38,6 @@ something that no page claims.
 ## Two meanings of "evidence"
 
 - "Evidence levels" in [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md) and in
-  the practices page on evidence are how far a check reached: served bytes, shipped behaviour,
-  browser render, device. They are a different concept from evidence files, which are the
+  [practices/evidence-levels.md](../practices/evidence-levels.md) are how far a check reached: served artefact, shipped behaviour,
+  browser flow interaction, device review, and headless suite. They are a different concept from evidence files, which are the
   artefacts a statement cites.
