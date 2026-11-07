@@ -23,7 +23,7 @@
 
 ## Find an existing home first
 
-1. Search: `grep -ril "<keyword>" recall/ roles/ practices/ project-setup/ engines/`
+1. Search: `grep -ril "<keyword>" recall/ roles/ practices/ project-setup/ technologies/`
 2. If a page already covers the subject, update that page. Add a rule only once.
 3. If an entry already describes the scenario, add a line to it rather than a new file.
 

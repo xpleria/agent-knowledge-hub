@@ -4,7 +4,7 @@
 - **Keywords:** implementer, reproduce, measure, failing test first, mutation check, fresh build, relayout, input, modal, layer, pointer events, wall-clock lock, protected files, tooling, discard, stash
 - **Status:** current
 - **Updated:** 2026-11-07
-- **Sources:** distilled from a Godot project's implementation runs; engine specifics are in `engines/`; see `recall/` for the scenarios behind each rule
+- **Sources:** distilled from a Godot project's implementation runs; technology specifics are in `technologies/`; see `recall/` for the scenarios behind each rule
 
 ## Loop
 

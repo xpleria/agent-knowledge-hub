@@ -4,7 +4,7 @@
 - **Keywords:** deploy, verify, served hash, SHA-256, HTTP 200, evidence level, FTPS, certificate, secrets, env file, gitignore, known state, commit before deploy, cache, no-store, rollback, dry run, versioning, version source, release channel, dev channel, release guard, annotated tag, changelog, build stamp, release date, served label
 - **Status:** current
 - **Updated:** 2026-11-07
-- **Sources:** distilled from a Godot web deploy's procedure and lessons, and its versioning and release procedure; engine-specific deploy traps are in `engines/`
+- **Sources:** distilled from a Godot web deploy's procedure and lessons, and its versioning and release procedure; technology-specific deploy traps are in `technologies/`
 
 ## Before deploying
 

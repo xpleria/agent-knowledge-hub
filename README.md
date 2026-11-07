@@ -1,7 +1,7 @@
 # Agent knowledge hub
 
 - **Scope:** What is this hub, where does an agent start, and what does each folder hold?
-- **Keywords:** hub, entry file, start here, index, map, recall, roles, practices, project-setup, engines, boundary
+- **Keywords:** hub, entry file, start here, index, map, recall, roles, practices, project-setup, technologies, boundary
 - **Status:** current
 - **Updated:** 2026-11-07
 - **Sources:** this hub's `AGENTS.md`, `contribute.md` and the index pages it links
@@ -31,7 +31,7 @@ the hub's entry file. Read it first, then the rules in [AGENTS.md](AGENTS.md).
 | [project-setup/00-project-setup-index.md](project-setup/00-project-setup-index.md) | How is a new project's `docs/` and `agent-docs/` laid out, and how do I bootstrap it? |
 | [project-setup/60-migrate-existing-project.md](project-setup/60-migrate-existing-project.md) | How do I migrate a project that already has docs, notes or agent files? |
 | [project-setup/templates/00-templates-index.md](project-setup/templates/00-templates-index.md) | Which starter files (AGENTS.md, agent-docs README, forge topic, horizon item, chronicle entry) can I copy? |
-| [engines/00-engines-index.md](engines/00-engines-index.md) | Which engine-specific traps are broadly useful? (Labelled per engine.) |
+| [technologies/00-technologies-index.md](technologies/00-technologies-index.md) | Which technology-specific traps are broadly useful, and for which technology and facet? (Labelled per technology.) |
 
 ## Tree
 
@@ -42,7 +42,7 @@ agent-knowledge-hub/
   roles/           orchestrator, implementer, documentation writer, tester
   practices/       cross-project working practices
   project-setup/   bootstrap guide and templates/
-  engines/         engine-specific pages, clearly labelled
+  technologies/    technology-specific pages: technology -> facet -> page, clearly labelled
 ```
 
 ## Boundary
