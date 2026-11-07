@@ -5,11 +5,11 @@
 - **Status:** chronicle
 - **Updated:** <YYYY-MM-DD of the last change to this entry>
 - **Sources:** the topic's index as it stood at close; the commit range below
-- **Sign-off:** accepted by the owner on <YYYY-MM-DD>; reference: <message id, link, commit or PR>; <plain-language qualifier, or none>
+- **Sign-off:** <accepted | partly accepted | cancelled> by the owner on <YYYY-MM-DD>; reference: <message id, link, commit or PR>; <neutral qualifier, or none>
 
 ## Closed
 
-- <YYYY-MM-DD>: closed by owner acceptance of <the whole topic, or the named part only>.
+- <YYYY-MM-DD>: closed by owner acceptance of <the whole topic, or the named part only>, or by owner cancellation.
 
 ## Facts went to
 

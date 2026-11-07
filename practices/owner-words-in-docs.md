@@ -24,7 +24,7 @@
 ## How to write a permanent record
 
 - State the decision, rule or rationale as a plain statement. Add the owner decision's date where the date is part of the record, as "(owner decision, YYYY-MM-DD)".
-- Record a sign-off as "accepted by the owner on <date>", plus any plain-language qualifier the owner gave, for example "accepted without a device check; the owner took the agent's report".
+- Record a sign-off in the Sign-off field as its kind, the date and a reference, for example "accepted by the owner on <date>; reference: <message, link, commit or PR>", plus any neutral qualifier, for example "accepted without a device check; the owner took the agent's report". A short owner quote may be the reference only in transient pages (see `project-setup/31-sign-off-rules.md`).
 - Keep nuance as plain statements, not as quotes.
 - Keep commit hashes. Keep product UI text and rule text quoted, as product text: those are the game's words, not the owner's.
 - A chronicle entry gives its sign-off as the date plus a non-quote reference (message id, link, commit or PR). It never carries the owner's words.

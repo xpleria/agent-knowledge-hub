@@ -5,7 +5,7 @@
 - **Status:** current
 - **Updated:** <YYYY-MM-DD>
 - **Sources:** <the pages this index summarises, or the rule it applies>
-- **Sign-off:** <agent-docs indexes only: date and reference of the owner sign-off that created this index; `none` when no transition created it>
+- **Sign-off:** <agent-docs indexes only: `none` unless a transition created the index; then the sign-off, in the form set by project-setup/31-sign-off-rules.md>
 
 <Delete the Sign-off line in folders outside agent-docs.>
 
