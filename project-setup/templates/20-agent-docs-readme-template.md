@@ -1,10 +1,10 @@
 # agent-docs
 
 - **Scope:** What does the work-lifecycle tree hold, and how does an agent move through it?
-- **Keywords:** agent-docs, lore, forge, horizon, chronicle, lifecycle, work tracking, progress, index, sign-off
+- **Keywords:** agent-docs, lore, forge, horizon, chronicle, lifecycle, work tracking, progress, index, sign-off, transitions
 - **Status:** current
 - **Updated:** 2026-11-07
-- **Sources:** the project's `docs/README.md`; the hub's `project-setup/30-lifecycle-and-acceptance.md`
+- **Sources:** the project's `docs/README.md`, section "Documentation conventions"; the hub's `project-setup/31-sign-off-rules.md` and `project-setup/32-transitions.md`
 
 This tree holds the work lifecycle of this project: what is in progress, what may come
 later, and the lessons learned along the way. Settled facts live in
@@ -26,6 +26,18 @@ never links back.
 - A topic moves only after the owner signs off. Record each sign-off in the Sign-off field of the topic index or register entry: the date, a reference (message, link, commit or PR), and any neutral qualifier.
 - A closed topic gets a chronicle entry, written before its forge folder is deleted.
 - Status lives only in a topic's progress file. Keep it to current state and next actions.
-- Files are `NN-topic-slug.md` and folders `NN-topic-slug/`, each with a `00-*-index.md`.
 - No runnable code, generated files or engine sidecars in this tree.
-- Code comments cite `docs/` facts or decision IDs, never paths in this tree.
+- Naming, numbering, indexes, headers and code citation follow the "Documentation conventions" section of [`../docs/README.md`](../docs/README.md). Do not copy them here.
+
+## Transitions
+
+| Owner sign-off | Transition |
+| --- | --- |
+| Commencement | Create the forge topic with its index, or move it in from `03-horizon/` and delete the horizon item. |
+| Acceptance | Weave: facts to `docs/`, lessons to `01-lore/`, any deferred remainder to `03-horizon/`. Write the chronicle entry, then delete the forge topic. |
+| Partial acceptance | Weave only the accepted part. The rest stays in forge, or goes to `03-horizon/` if deferred. |
+| Deferral | Move the topic to `03-horizon/` with its remaining state summarised. Its lessons so far go to `01-lore/`. |
+| Cancellation | Lessons go to `01-lore/`. Write the chronicle entry. Shed the rest. |
+
+Each transition happens in the same session as its sign-off. Passing tests and your own
+judgement are not sign-off.
