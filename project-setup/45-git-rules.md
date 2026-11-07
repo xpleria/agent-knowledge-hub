@@ -1,7 +1,7 @@
 # Git rules for project work: commits, pushes and undo
 
 - **Scope:** Which git actions may an agent take in a project without asking, and how are commits, pushes and undo kept safe?
-- **Keywords:** git, commit, local commit, push, remote, force push, amend, stash, checkout, restore, reset, rename, git mv, uncommitted work, one writer, stop and ask, deploy, permission
+- **Keywords:** git, commit, local commit, push, remote, force push, amend, stash, checkout, restore, reset, rename, git mv, uncommitted work, one writer, stop and ask, deploy, permission, tag
 - **Status:** current
 - **Updated:** 2026-11-07
 - **Sources:** the owner's lifecycle prompt, sections 5 (Phases 0 and 3), merged into this hub 2026-11-07; this hub's `practices/git-safety.md` and `practices/one-writer-per-tree.md`
@@ -17,6 +17,7 @@ Rule first: no push and no remote unless the owner says so. Commit only when the
 
 ## Pushing and rewriting history
 
+- Never create or push a tag unless the owner says so. A release tag is the owner's act.
 - Push only when the owner says so. Never force-push.
 - Do not amend, rebase or force-push commits you did not make in this session.
 - After a push, compare the local tip with the remote tip.

@@ -10,6 +10,8 @@
 
 - Deploy from a known state. If the working tree holds someone else's uncommitted work, say so and let the owner choose.
 - Commit before the deploy, when commits are permitted (see [45-git-rules.md](45-git-rules.md)), so each item is visible on its own. A deploy changes no code and creates no commit.
+- A deploy changes no behaviour. A new export filter or feature set is a behaviour change, so it follows the test rule (see [practices/test-design.md](../practices/test-design.md)) like any other change.
+- A shipped build carries no debug or reveal-all affordance. Hidden information stays hidden in the shipped build. A test or probe may use such a feature only in a build that is never shipped.
 - Run the project's own deploy script. Do not hand-type upload steps.
 - Offer a dry-run mode that builds and checks artefacts without credentials or upload.
 
@@ -22,13 +24,13 @@
 
 ## Proving a deploy
 
-Evidence levels. Each proves only itself; report the level you reached, never a higher one.
+Evidence levels. Each proves only itself; report the level you reached, never a higher one. The table of what each level does not prove is in [practices/evidence-levels.md](../practices/evidence-levels.md).
 These levels are a different concept from evidence files (see [37-evidence-and-helpers.md](37-evidence-and-helpers.md)).
 
-1. **Served bytes.** The artefact is on the host: status, headers and a hash of the main file match the local copy.
-2. **Shipped behaviour.** The shipped code does what the change claims. A text search of a compiled artefact proves nothing; call the shipped code.
-3. **Browser render.** The page loads, the required isolation or security headers are present, the error overlay is empty, and the canvas or view has real content. Drive the route that changed.
-4. **Device interaction.** Gestures and transitions are proven only by driving them on a device.
+1. **Served artefact (deploy transfer).** The artefact is on the host: status, headers and a hash of the main file match the local copy.
+2. **Shipped behaviour (runtime check).** The shipped code does what the change claims. A text search of a compiled artefact proves nothing; call the shipped code.
+3. **Browser flow interaction.** The page loads, the required isolation or security headers are present, the error overlay is empty, and the canvas or view has real content. Drive the route that changed.
+4. **Device review.** Gestures and transitions are proven only by driving them on a device.
 
 HTTP 200 alone proves only that a file exists.
 
