@@ -26,7 +26,8 @@ These rules govern a project's docs, never the hub's own folders (see
 | --- | --- |
 | [10-docs-and-agent-docs-structure.md](10-docs-and-agent-docs-structure.md) | What goes in `docs/` versus `agent-docs/`? |
 | [12-docs-tiers-and-glossary.md](12-docs-tiers-and-glossary.md) | Which tier folders does `docs/` use, in what authority order, and where does the glossary go? |
-| [20-naming-and-index-conventions.md](20-naming-and-index-conventions.md) | How are files, folders and indexes named and split? |
+| [20-naming-and-index-conventions.md](20-naming-and-index-conventions.md) | How are files and folders named? |
+| [22-split-and-merge-thresholds.md](22-split-and-merge-thresholds.md) | When does a file, folder or index get split, promoted, grouped, collapsed or merged? |
 | [30-lifecycle-and-acceptance.md](30-lifecycle-and-acceptance.md) | How does work move from future to active to accepted, and when do docs update? |
 | [40-bootstrap-checklist.md](40-bootstrap-checklist.md) | What do I create, in what order, when I set up a project? |
 | [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md) | How do I deploy and prove a deploy is live, and how do I version and release it? |
