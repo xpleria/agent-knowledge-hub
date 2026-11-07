@@ -10,8 +10,8 @@
 
 - One reviewable idea per commit. All edits that implement the same decision go together, even across files. A commit can be described in one sentence without "and".
 - Size check: about 1 to 15 files, with a diff a reviewer can read in 10 to 15 minutes. Split a commit that is hard to review. Merge commits when one change needs several commits to be understood.
-- Never split what breaks when separated: a page with its index row, a rename with the links it repoints, a rule with the template that depends on it. No commit may leave a broken link or a stale index.
-- Pure renames (`git mv`) go in their own commit, separate from content edits.
+- Never split what breaks when separated: a page with its index row, a rule with the template that depends on it. No commit may leave a broken link or a stale index.
+- A rename commit holds the `git mv` plus only the link repoints that the rename itself breaks. Content edits to the renamed file go in separate commits. Similarity stays high, so git still detects the rename and `git log --follow` keeps the history.
 - Fold fixups (a typo, a missed link of the same change) into the commit they belong to, before pushing. Never add them as follow-up commits.
 - Name the folder and the concern in the message, for example `project-setup: horizon group folders, no stubs`.
 - A delegated run's brief says "group edits by concern, not by file". A run of one concern is about 1 to 5 commits.

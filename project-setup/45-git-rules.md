@@ -13,7 +13,7 @@ Rule first: no push and no remote unless the owner says so. Commit only when the
 - With permission, commit each logical change locally as it completes: one logical change per commit, grouped by concern, see [practices/commit-granularity.md](../practices/commit-granularity.md), with a message that names the folder it touches.
 - Without permission, leave the changes uncommitted and say so in the report.
 - When commits are permitted, commit before a deploy, so each item is visible on its own (see [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md)).
-- In a migration, commit pure renames (`git mv`) separately from content edits, so rename detection and `git log --follow` keep working.
+- In a migration, make each rename a rename commit: the `git mv` plus only the link repoints that the rename itself breaks. Content edits go in separate commits. Git keeps detecting the rename because similarity stays high, so `git log --follow` follows the file, and no commit leaves a broken link (see [practices/commit-granularity.md](../practices/commit-granularity.md)).
 
 ## Pushing and rewriting history
 
