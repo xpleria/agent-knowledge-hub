@@ -51,5 +51,5 @@ which topic it belongs to.
 - Numbers: [21-numbering-rules.md](21-numbering-rules.md).
 - Uppercase and root files: [15-uppercase-and-root-files.md](15-uppercase-and-root-files.md).
 - Index contents: [23-index-format.md](23-index-format.md).
-- Header fields: [25-headers-and-status.md](25-headers-and-status.md).
+- Header fields: [25-header-fields.md](25-header-fields.md).
 - Split, merge and grouping thresholds: [22-split-and-merge-thresholds.md](22-split-and-merge-thresholds.md).

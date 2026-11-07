@@ -11,7 +11,7 @@ instead (see below).
 
 ## Contents, in order
 
-1. The title and the header block (see [25-headers-and-status.md](25-headers-and-status.md)).
+1. The title and the header block (see [25-header-fields.md](25-header-fields.md)).
 2. A short statement of what the folder covers, in one paragraph.
 3. A reading guide: one line per situation, in the form "read X first if you change Y".
 4. A table with one row per child.
@@ -22,7 +22,7 @@ instead (see below).
 - Columns: the link; a one-line answer to "what question does this child answer?"; and a
   status column only where status applies (forge and horizon folders).
 - A status cell holds the state label and a link to the progress file. It never holds status
-  content (see [25-headers-and-status.md](25-headers-and-status.md)).
+  content (see [25-header-fields.md](25-header-fields.md)).
 
 *Why:* the table lets a reader choose a child by its question, without opening each file.
 
