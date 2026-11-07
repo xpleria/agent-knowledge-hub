@@ -21,9 +21,9 @@
 
 ## When docs change
 
-- A behaviour change ships code-only first. The matching settled-facts doc is updated once, after the owner accepts the item.
-- Until then, the pending doc update sits in the topic's progress file.
-- There is no separate docs sign-off. The docs are accepted with the implementation they describe.
+- A behaviour change outside an open forge topic (a fix, or work already accepted) updates the matching settled-facts doc in the same change.
+- A behaviour change inside an open forge topic waits for acceptance. The pending docs update is listed in the topic's progress file, so `docs/` never describes unaccepted behaviour.
+- A descriptive doc that no longer matches the code is a defect, and it is fixed in the same change.
 - Record "implemented + deployed, awaiting owner check" as an entry in the standing list of the progress file, not as a Status value (see [25-header-fields.md](25-header-fields.md) and [26-status-vocabulary.md](26-status-vocabulary.md)). Keep the entry until the owner speaks.
 
 ## Lessons are woven, not dumped

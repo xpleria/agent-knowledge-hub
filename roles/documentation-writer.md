@@ -9,7 +9,7 @@
 ## Timing
 
 - Update the progress file of the work item in the same session as the work. Status lives only there.
-- Update the settled-facts docs once, after the owner accepts the item, not while it is still awaiting review. Until then, list the pending doc update in the progress file.
+- A behaviour change outside an open forge topic updates the settled-facts docs in the same change. Inside an open forge topic, list the pending docs update in the progress file, and apply it once the owner accepts the item.
 - Record `implemented + deployed, awaiting owner check` as an entry in the progress file's standing list, never as a Status value, until the owner speaks.
 - Close a topic by writing its thin chronicle entry before deleting the forge folder: closed date, sign-off reference, where facts and lessons went, deferred links and one commit range. Everything else is shed; git keeps it. Correct a written entry only by a dated note at its end, never by rewriting it. Transitions for partial acceptance, deferral and cancellation: see `project-setup/32-transitions.md`.
 
