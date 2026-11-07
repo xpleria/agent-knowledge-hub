@@ -8,21 +8,16 @@
 
 ## Sign-off belongs to the owner
 
-- A topic moves only after the project owner signs off. Record the sign-off in the topic index as "accepted by the owner on <date>", with any plain-language qualifier the owner gave.
+- A topic moves only after the owner signs off its commencement, acceptance, deferral or cancellation. Each sign-off is recorded in the Sign-off field of its record (see [31-sign-off-rules.md](31-sign-off-rules.md)).
 - Owner quotes never reach a permanent page as quotes. At acceptance or close-out, convert each quote to a neutral statement, then delete the quotation marks (hub: `practices/owner-words-in-docs.md`).
 - Passing tests, a clean review or an agent's own judgement are not sign-off.
 
 ## Transitions
 
-| Sign-off | Effect |
-| --- | --- |
-| Commencement | Topic moves from horizon (or nowhere) into the active forge, with playbook, plan and progress files. |
-| Acceptance | Facts go to `docs/`, lessons are woven into lore, any deferred remainder goes to horizon, a thin chronicle entry is written (closed date, sign-off reference, where facts and lessons went, deferred links, one commit range), and then the forge topic is deleted. Everything else is shed; git history keeps it, and an old detail is found by its commit SHA. |
-| Deferral | Topic moves back to horizon. |
-| Cancellation | Lessons are woven into lore; the rest is shed (git keeps it). |
-
+- Each sign-off triggers a document transition in the same session. The table of transitions
+  (commencement, acceptance, partial acceptance, deferral, cancellation) is in
+  [32-transitions.md](32-transitions.md).
 - Never start a parallel topic for work that an active topic already covers. Continue that topic.
-- Write the chronicle entry before deleting the forge folder. Once the folder is gone, the entry is the register of the closed topic: its date, its sign-off, and where its facts and lessons went.
 
 ## When docs change
 
