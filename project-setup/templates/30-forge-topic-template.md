@@ -5,7 +5,6 @@
 - **Status:** forge: active
 - **Updated:** <YYYY-MM-DD>
 - **Sources:** <playbook and plan files in this folder>
-- **Sign-off:** <owner's words, verbatim, with reference; "none yet" until given>
 
 ## Current state
 
