@@ -4,7 +4,7 @@
 - **Keywords:** <topic slug>, forge, index, goal, scope, status, reading guide, map
 - **Status:** <forge: active | paused | blocked>
 - **Updated:** <YYYY-MM-DD>
-- **Sources:** <the playbook, plan and progress files in this folder; the sign-off in the header field>
+- **Sources:** <the playbook, plan and progress files in this folder>
 - **Sign-off:** <commenced | accepted | partly accepted | deferred | cancelled> by the owner on <YYYY-MM-DD>; reference: <message id, link, commit or PR>; <qualifier, or none>
 
 ## Goal
