@@ -41,4 +41,5 @@
 ## Notes
 
 - Sign-off stays `none` until a deferral creates this item. The deferral then records its date and reference.
+- If this item sits in a themed horizon folder, the folder's index holds its row; this file keeps the template shape.
 - On commencement, delete this item, fix its inbound links, and record the origin in the forge index. No pointer stub is left.
