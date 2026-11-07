@@ -1,7 +1,7 @@
 # Delegation briefs
 
 - **Scope:** What must a brief to a delegated agent contain so it can finish the job without guessing and without overclaiming?
-- **Keywords:** brief, delegation, subagent, self-contained, success criteria, hard rules, verbatim, report format, item order, not done, steer
+- **Keywords:** brief, delegation, subagent, self-contained, success criteria, hard rules, verbatim, report format, item order, not done, steer, denied command, heredoc, review note
 - **Status:** current
 - **Updated:** 2026-11-07
 - **Sources:** distilled from a Godot project's orchestration runs
@@ -25,7 +25,8 @@ A brief is the only context a delegated agent gets. Make it complete.
 - Name the files each agent may touch, so parallel agents do not collide.
 - Tell the agent that a partial report with evidence is better than a complete-looking one without it.
 - When the owner adds something mid-run, steer the running agent. Do not start a second agent in the same tree.
-- Avoid recursive delete commands and long chained one-liners in a brief; they are often denied and stop the run.
+- Put this denied-pattern list in every brief, in brief form: "Do not use heredocs, inline interpreters (`python -c`, `node -e`, `bash -c`), bulk in-place rewrites (`sed -i`, `perl -pi`), recursive deletes (`rm -rf`), or an edit chained to a run. These are denied without an approval prompt and stop the run. Edit with the file tools; to undo an edit, restore the backup you made and confirm it with `cmp`. Never use `git checkout`, `git restore` or `git reset`. If a command is denied, stop and report it exactly."
+- When a brief asks for a review, ask for each note in the format in [review-adjudication.md](review-adjudication.md): point, verdict, anchor and alternative.
 
 ## Why
 
