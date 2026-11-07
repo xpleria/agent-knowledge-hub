@@ -23,6 +23,8 @@ These rules govern a project's docs, never the hub's own folders (see
 - Choosing a number prefix or retiring a permanent ID: read [21-numbering-rules.md](21-numbering-rules.md).
 - Deciding when a file or folder must be split, merged or grouped: read [22-split-and-merge-thresholds.md](22-split-and-merge-thresholds.md).
 - Deciding whether work is accepted, deferred or cancelled: read [30-lifecycle-and-acceptance.md](30-lifecycle-and-acceptance.md), then [31-sign-off-rules.md](31-sign-off-rules.md) and [32-transitions.md](32-transitions.md).
+- A claim, a status line or a code/docs conflict: read [38-code-versus-docs.md](38-code-versus-docs.md) and [39-claim-verification.md](39-claim-verification.md).
+- Writing a proposed decision: read [34-proposed-decisions-and-ids.md](34-proposed-decisions-and-ids.md).
 - Creating a forge topic or its files: read [33-forge-topic-file-set.md](33-forge-topic-file-set.md).
 - Adding or leaving horizon: read [35-horizon-item-shape.md](35-horizon-item-shape.md).
 - Writing a lesson into lore: read [36-lore-rules.md](36-lore-rules.md).
@@ -50,9 +52,12 @@ These rules govern a project's docs, never the hub's own folders (see
 | [31-sign-off-rules.md](31-sign-off-rules.md) | Which owner statements count as sign-off, and where is each one recorded? |
 | [32-transitions.md](32-transitions.md) | What document changes follow each sign-off, and what happens in the same session? |
 | [33-forge-topic-file-set.md](33-forge-topic-file-set.md) | Which files does a forge topic folder hold, and when is each one created? |
+| [34-proposed-decisions-and-ids.md](34-proposed-decisions-and-ids.md) | Where does a proposed decision live, and which permanent ID does it take on acceptance? |
 | [35-horizon-item-shape.md](35-horizon-item-shape.md) | What must a horizon item say, when does it grow into a folder, and how does it leave horizon? |
 | [36-lore-rules.md](36-lore-rules.md) | What belongs in lore, and how is a lesson woven into it? |
 | [37-evidence-and-helpers.md](37-evidence-and-helpers.md) | Where does evidence live, which evidence is kept, and where do helper programs go? |
+| [38-code-versus-docs.md](38-code-versus-docs.md) | When code and docs disagree, which side is wrong? |
+| [39-claim-verification.md](39-claim-verification.md) | What must a claim be checked against before it enters docs, and where does an unverified claim go? |
 | [40-bootstrap-checklist.md](40-bootstrap-checklist.md) | What do I create, in what order, when I set up a project? |
 | [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md) | How do I deploy and prove a deploy is live, and how do I version and release it? |
 | [55-evidence-index-format.md](55-evidence-index-format.md) | Which columns does an evidence index carry? |

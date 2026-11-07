@@ -24,7 +24,7 @@
 
 ## Writing facts
 
-- Write only what you verified in the code or the source, reading the cited file first. Otherwise write "not determinable".
+- Write only what you verified in the code or the source, reading the cited file first. Otherwise record it as "to verify" (see [../project-setup/39-claim-verification.md](../project-setup/39-claim-verification.md)).
 - Cite `path` plus the symbol or heading, not only a line number, because line numbers go stale.
 - One fact per file, short pages. Split a file that answers two questions.
 - When an item moves from horizon to an active forge topic, delete the horizon item and fix its inbound links in the same change, and update both indexes. Leave no pointer stub.
