@@ -24,6 +24,7 @@ These rules govern a project's docs, never the hub's own folders (see
 - Deciding whether work is accepted, deferred or cancelled: read [30-lifecycle-and-acceptance.md](30-lifecycle-and-acceptance.md), then [31-sign-off-rules.md](31-sign-off-rules.md) and [32-transitions.md](32-transitions.md).
 - Creating a forge topic or its files: read [33-forge-topic-file-set.md](33-forge-topic-file-set.md).
 - Adding or leaving horizon: read [35-horizon-item-shape.md](35-horizon-item-shape.md).
+- Writing a lesson into lore: read [36-lore-rules.md](36-lore-rules.md).
 - Setting up deploy and verification: read [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md).
 - Starter files: [templates/00-templates-index.md](templates/00-templates-index.md).
 
@@ -46,6 +47,7 @@ These rules govern a project's docs, never the hub's own folders (see
 | [32-transitions.md](32-transitions.md) | What document changes follow each sign-off, and what happens in the same session? |
 | [33-forge-topic-file-set.md](33-forge-topic-file-set.md) | Which files does a forge topic folder hold, and when is each one created? |
 | [35-horizon-item-shape.md](35-horizon-item-shape.md) | What must a horizon item say, when does it grow into a folder, and how does it leave horizon? |
+| [36-lore-rules.md](36-lore-rules.md) | What belongs in lore, and how is a lesson woven into it? |
 | [40-bootstrap-checklist.md](40-bootstrap-checklist.md) | What do I create, in what order, when I set up a project? |
 | [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md) | How do I deploy and prove a deploy is live, and how do I version and release it? |
 | [templates/00-templates-index.md](templates/00-templates-index.md) | Which starter files can I copy? |
