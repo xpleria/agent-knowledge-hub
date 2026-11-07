@@ -22,6 +22,7 @@ These rules govern a project's docs, never the hub's own folders (see
 - Choosing a number prefix or retiring a permanent ID: read [21-numbering-rules.md](21-numbering-rules.md).
 - Deciding when a file or folder must be split, merged or grouped: read [22-split-and-merge-thresholds.md](22-split-and-merge-thresholds.md).
 - Deciding whether work is accepted, deferred or cancelled: read [30-lifecycle-and-acceptance.md](30-lifecycle-and-acceptance.md), then [31-sign-off-rules.md](31-sign-off-rules.md) and [32-transitions.md](32-transitions.md).
+- Creating a forge topic or its files: read [33-forge-topic-file-set.md](33-forge-topic-file-set.md).
 - Setting up deploy and verification: read [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md).
 - Starter files: [templates/00-templates-index.md](templates/00-templates-index.md).
 
@@ -42,6 +43,7 @@ These rules govern a project's docs, never the hub's own folders (see
 | [30-lifecycle-and-acceptance.md](30-lifecycle-and-acceptance.md) | How does work move from future to active to accepted, and when do docs update? |
 | [31-sign-off-rules.md](31-sign-off-rules.md) | Which owner statements count as sign-off, and where is each one recorded? |
 | [32-transitions.md](32-transitions.md) | What document changes follow each sign-off, and what happens in the same session? |
+| [33-forge-topic-file-set.md](33-forge-topic-file-set.md) | Which files does a forge topic folder hold, and when is each one created? |
 | [40-bootstrap-checklist.md](40-bootstrap-checklist.md) | What do I create, in what order, when I set up a project? |
 | [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md) | How do I deploy and prove a deploy is live, and how do I version and release it? |
 | [templates/00-templates-index.md](templates/00-templates-index.md) | Which starter files can I copy? |

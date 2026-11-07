@@ -1,19 +1,38 @@
-# Forge topic progress: <Topic name>
+# Forge progress: <Topic name>
 
-- **Scope:** What is the current state of this workstream and what are the next actions?
-- **Keywords:** <topic slug>, progress, status, next actions, pending docs, awaiting owner check, blocked, queued
-- **Status:** forge: active
+- **Scope:** What is the current state of this workstream, and what are the next actions?
+- **Keywords:** <topic slug>, progress, status, verified, built but unverified, broken, blockers, next actions, standing list, pending docs, awaiting owner check, blocked, queued
+- **Status:** <forge: active | paused | blocked>
 - **Updated:** <YYYY-MM-DD>
-- **Sources:** <playbook and plan files in this folder>
+- **Sources:** <playbook, plan and evidence files in this folder; the code, tests and docs they cite>
 
-## Current state
+This file is the single source of status for the topic. The index links here and gives only a
+one-line summary.
 
-<One short paragraph: what is done, what is in progress, where the code or docs stand.>
+## Verified done
+
+- <Item, the level it was verified at, and its commit.>
+- <none yet>
+
+## Built but unverified
+
+- <Item, and the check that is still missing.>
+- <none yet>
+
+## Broken
+
+- <Item, and what fails.>
+- <none yet>
+
+## Blockers
+
+- <Blocker, and the owner answer or file it waits for.>
+- <none yet>
 
 ## Standing list
 
 - **Accepted (owner's words):** <none yet>
-- **Implemented, awaiting owner check:** <none yet>
+- **Implemented, awaiting owner check:** <none yet; for example "implemented + deployed, awaiting owner check">
 - **Blocked on an owner answer:** <none yet>
 - **Queued:** <none yet>
 
