@@ -30,6 +30,7 @@ These rules govern a project's docs, never the hub's own folders (see
 - Writing a lesson into lore: read [36-lore-rules.md](36-lore-rules.md).
 - Keeping evidence or a helper program: read [37-evidence-and-helpers.md](37-evidence-and-helpers.md), then [55-evidence-index-format.md](55-evidence-index-format.md).
 - Setting up deploy and verification: read [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md).
+- Committing, pushing or undoing work in a project: read [45-git-rules.md](45-git-rules.md).
 - Starter files: [templates/00-templates-index.md](templates/00-templates-index.md).
 
 ## Children
@@ -59,6 +60,7 @@ These rules govern a project's docs, never the hub's own folders (see
 | [38-code-versus-docs.md](38-code-versus-docs.md) | When code and docs disagree, which side is wrong? |
 | [39-claim-verification.md](39-claim-verification.md) | What must a claim be checked against before it enters docs, and where does an unverified claim go? |
 | [40-bootstrap-checklist.md](40-bootstrap-checklist.md) | What do I create, in what order, when I set up a project? |
+| [45-git-rules.md](45-git-rules.md) | Which git actions need permission, and how are commits, pushes and undo kept safe? |
 | [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md) | How do I deploy and prove a deploy is live, and how do I version and release it? |
 | [55-evidence-index-format.md](55-evidence-index-format.md) | Which columns does an evidence index carry? |
 | [templates/00-templates-index.md](templates/00-templates-index.md) | Which starter files can I copy? |
