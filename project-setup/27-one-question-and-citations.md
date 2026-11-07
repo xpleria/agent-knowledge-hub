@@ -31,8 +31,9 @@ going stale. A decision that sits next to a measurement reads as if the measurem
 
 ## Citing code
 
-- Cite code as `path` plus the symbol, or as `path:line`.
-- Prefer the symbol. Line numbers go stale when the file changes.
+- Permanent pages (docs, lore, hub) cite code as `path` plus the symbol or heading. No line numbers.
+- Transient pages (forge, horizon, evidence) may cite `path:line`.
+- Prefer the symbol wherever one exists, even in transient pages. Line numbers go stale.
 - Re-check every cited anchor whenever the cited file changes.
 
 *Why:* a stale anchor sends the reader to the wrong code with full confidence.
