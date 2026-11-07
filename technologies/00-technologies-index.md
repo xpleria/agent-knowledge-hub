@@ -21,4 +21,4 @@ Only broadly useful, reusable knowledge belongs here. A project's own code patte
 | File | What question it answers |
 | --- | --- |
 | [grouping-rules.md](grouping-rules.md) | When do I open a technology, a facet or a page, and where does cross-facet content go? |
-| [godot/00-godot-index.md](godot/00-godot-index.md) | Which Godot traps are broadly useful, and for which facet? (Godot 4.x, verified on 4.7.) |
+| [godot/00-godot-index.md](godot/00-godot-index.md) | Which Godot traps are broadly useful, and for which facet: shared (GDScript, GUT, Windows host) or game client (UI, Web export)? (Godot 4.x, observed on 4.7.) |
