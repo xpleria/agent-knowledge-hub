@@ -29,7 +29,7 @@
 - A behaviour change ships code-only first. The matching settled-facts doc is updated once, after the owner accepts the item.
 - Until then, the pending doc update sits in the topic's progress file.
 - There is no separate docs sign-off. The docs are accepted with the implementation they describe.
-- Use the status `implemented + deployed, awaiting owner check` until the owner speaks.
+- Record "implemented + deployed, awaiting owner check" as an entry in the standing list of the progress file, not as a Status value (see [25-headers-and-status.md](25-headers-and-status.md)). Keep the entry until the owner speaks.
 
 ## Lessons are woven, not dumped
 
