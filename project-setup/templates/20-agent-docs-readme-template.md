@@ -18,7 +18,7 @@ never links back.
 | [`01-lore/`](01-lore/00-lore-index.md) | Lessons, rationale and pitfalls from finished or cancelled work, by subject. A living record. |
 | [`02-forge/`](02-forge/00-forge-index.md) | Active work, one topic folder per workstream. |
 | [`03-horizon/`](03-horizon/00-horizon-index.md) | Future work the owner has not committed to plan yet. |
-| [`04-chronicle/`](04-chronicle/00-chronicle-index.md) | Thin register: one page per closed forge topic, with its closed date, sign-off, where its facts and lessons went, deferred links and one commit range. Written before the forge folder is deleted. |
+| [`04-chronicle/`](04-chronicle/00-chronicle-index.md) | Thin register: one page per closed forge topic, with its closed date, sign-off, where its facts and lessons went, deferred links and one commit range, plus an optional short "What shipped" paragraph. Written before the forge folder is deleted. |
 
 ## Rules
 
