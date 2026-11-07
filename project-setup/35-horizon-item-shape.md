@@ -26,6 +26,15 @@ Rule first: one horizon item is one file, `03-horizon/NN-<slug>.md`, copied from
   The number and slug stay the same.
 - Add files only when they have content: a brief, carried-over findings or evidence.
 
+## Themed groups
+
+- Related items may share a themed folder, `03-horizon/NN-<theme>/`, when it holds at least two
+  item files. Its `00-<theme>-index.md` states the theme and has one row per item, with its
+  status cell.
+- An item file in a folder that holds only its index is a defect. Split the folder into item
+  files, or flatten it.
+- Never leave a pointer stub. Fix the inbound links instead.
+
 ## Numbering
 
 - Number items by intended sequence where it is known, otherwise by dependency. Numbers
