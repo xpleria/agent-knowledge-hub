@@ -3,8 +3,8 @@
 - **Scope:** What evidence must back a claim that work is done, and how should a report word what was and was not verified?
 - **Keywords:** evidence, verification, claim, self-report, landed, done, git log, git status, diff, hash, test output, not verified, non-reproduction, report wording
 - **Status:** current
-- **Updated:** 2026-11-01
-- **Sources:** distilled from a Godot project's verification and orchestration lessons (ganvchi-court)
+- **Updated:** 2026-11-07
+- **Sources:** distilled from a Godot project's verification and orchestration lessons
 
 ## Rules
 

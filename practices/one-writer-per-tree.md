@@ -3,8 +3,8 @@
 - **Scope:** How do several agents share one repository without tangling each other's edits, commits or deploys?
 - **Keywords:** one writer, working tree, parallel agents, concurrent edit, file ownership, disjoint files, collision, read-only inspection, observer, in flight, CRLF, LF, line endings
 - **Status:** current
-- **Updated:** 2026-11-01
-- **Sources:** distilled from a Godot project's multi-agent collaboration lessons (ganvchi-court)
+- **Updated:** 2026-11-07
+- **Sources:** distilled from a Godot project's multi-agent collaboration lessons
 
 ## Rules
 

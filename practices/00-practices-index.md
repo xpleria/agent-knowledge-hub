@@ -3,10 +3,18 @@
 - **Scope:** Which cross-project working habits apply to delegation, evidence, git safety, testing and owner communication?
 - **Keywords:** practices, delegation, brief, evidence, verification, git safety, stash, one writer, screenshots, owner question, owner words, neutral wording, acceptance
 - **Status:** current
-- **Updated:** 2026-11-03
-- **Sources:** distilled from a Godot project's working-practice and multi-agent lessons (ganvchi-court); see the individual pages for sources
+- **Updated:** 2026-11-07
+- **Sources:** distilled from a Godot project's working-practice and multi-agent lessons; see the individual pages for sources
 
 These habits apply in any project. A project's own rules override them.
+
+## Reading guide
+
+- Briefing or running a subagent: read [delegation-briefs.md](delegation-briefs.md), then [evidence-and-verification.md](evidence-and-verification.md).
+- Before any commit, undo or stash: read [git-safety.md](git-safety.md) and [one-writer-per-tree.md](one-writer-per-tree.md).
+- Asking the owner or writing a permanent page: read [owner-words-in-docs.md](owner-words-in-docs.md).
+- Capturing or judging a screenshot: read [screenshots-and-testing-discipline.md](screenshots-and-testing-discipline.md).
+
 
 ## Children
 

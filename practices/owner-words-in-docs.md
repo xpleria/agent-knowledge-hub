@@ -3,8 +3,8 @@
 - **Scope:** How should an agent put a question to the owner, and where may the owner's own words appear in a project?
 - **Keywords:** owner question, decision, options, recommendation, owner words, quote, neutral wording, decision date, sign-off, accepted, confirmed, works, fixed, standing list, pending, stale premise, scope change, close-out
 - **Status:** current
-- **Updated:** 2026-11-03
-- **Sources:** distilled from a Godot project's owner-communication rules (ganvchi-court); the owner's rule of 2026-11-03 on quoting in permanent docs
+- **Updated:** 2026-11-07
+- **Sources:** distilled from a Godot project's owner-communication rules; the owner's rule of 2026-11-03 on quoting in permanent docs
 
 ## Asking
 
@@ -27,6 +27,7 @@
 - Record a sign-off as "accepted by the owner on <date>", plus any plain-language qualifier the owner gave, for example "accepted without a device check; the owner took the agent's report".
 - Keep nuance as plain statements, not as quotes.
 - Keep commit hashes. Keep product UI text and rule text quoted, as product text: those are the game's words, not the owner's.
+- A chronicle entry gives its sign-off as the date plus a non-quote reference (message id, link, commit or PR). It never carries the owner's words.
 
 Before (permanent page): The owner said, "Make the save button bigger, it's too hard to hit." Accepted!
 
