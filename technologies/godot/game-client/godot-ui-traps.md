@@ -1,6 +1,6 @@
-# Godot 4 UI traps (engine: Godot 4.x, observed on 4.7)
+# Godot 4 UI traps (technology: Godot 4.x, facet: game client, observed on 4.7)
 
-- **Scope:** Which Godot 4 UI, layout, input and viewport behaviours are broadly useful to remember, and what is the safe pattern for each?
+- **Scope:** Technology Godot, facet game client: which Godot 4 UI, layout, input and viewport behaviours are broadly useful to remember, and what is the safe pattern for each?
 - **Keywords:** Godot 4, GDScript, Control, Container, minimum size, queue_free, remove_child, CanvasLayer, z_index, touch emulation, emulate_mouse_from_touch, SubViewport, headless, outline_size, StyleBoxFlat, modulate, Label autowrap, lambda capture, get_minimum_size, custom_minimum_size
 - **Status:** current
 - **Updated:** 2026-11-07

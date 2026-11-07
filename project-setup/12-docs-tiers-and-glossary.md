@@ -21,14 +21,15 @@ only the tiers it needs, and only when a tier has content. Planned tiers are lis
 | `05-testing/` | How correctness is shown. |
 | `06-user-guide/` | How the product is used. |
 | `07-decisions/` | Accepted decision records, each with a permanent ID (see [21-numbering-rules.md](21-numbering-rules.md)). |
+| `NN-implementation/` | Optional, usually last. Descriptive notes on what was built and measured. Lowest authority; corrected when the code moves. |
 
 The table gives the typical position of each tier. A project fixes where its decisions tier
 sits in the authority order in its `docs/README.md`.
 
 Older hub wording (rules, implementation notes) folds into these tiers. Rules sit in
 `01-ground-truth/` or `02-requirements/`, depending on whether they describe the domain or
-the product. Implementation notes are descriptive and sit in `03-architecture/` or
-`04-development/`.
+the product. Implementation notes are descriptive. They sit in `NN-implementation/` when the project has
+that tier, otherwise in `03-architecture/` or `04-development/`.
 
 ## Authority and change
 

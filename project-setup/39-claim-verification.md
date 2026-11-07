@@ -24,7 +24,7 @@ Rule first: a claim enters `docs/` only after it is verified against the current
 
 - Record it as "to verify", in the active forge topic doing the related work, or in `03-horizon/` when no topic does.
 - Never create a forge topic just to hold it. A forge topic needs a commencement sign-off (see [33-forge-topic-file-set.md](33-forge-topic-file-set.md)).
-- Do not write "not determinable" into `docs/`. Record the claim as "to verify" instead.
+- The phrase "not determinable" is never used, in `docs/` or anywhere else. Record the claim as "to verify" instead.
 
 ## When a "to verify" claim is verified
 

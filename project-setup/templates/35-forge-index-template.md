@@ -29,6 +29,7 @@
 | File | What question it answers |
 | --- | --- |
 | [30-<slug>-progress.md](30-<slug>-progress.md) | What is verified, what is broken, and what is next? |
+| [40-<slug>-<kind>.md](40-<slug>-<kind>.md) | <The question this file answers. One row per 40+ file.> |
 | [99-<slug>-evidence/](99-<slug>-evidence/) | <What the evidence shows, if any evidence is kept.> |
 
 Keep this index free of substance beyond the goal, scope, status line, reading guide and map.

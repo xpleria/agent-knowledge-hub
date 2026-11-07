@@ -29,6 +29,7 @@ project rules, item IDs, product names or credentials. Exception: a recall entry
   Why: every project then shares one docs layout and acceptance flow.
 - **Work in a role:** read the page in `roles/` for each role you hold (one agent may
   hold several) and `practices/` before delegating or committing.
+- **Technology traps:** `technologies/00-technologies-index.md`, grouped technology, then facet.
 
 ## Contribute
 

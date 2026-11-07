@@ -27,6 +27,17 @@ not the status of the work inside it.
 *Why:* a paused topic that is moved to horizon looks deferred to a reader and loses its place
 in the forge index. An entry in a list cannot be mistaken for a stage.
 
+## One value, qualifiers elsewhere
+
+- The Status field holds one value from the table. A qualifier (why a topic is paused, what
+  blocks it) goes in the progress file or the body, never in the field.
+- `forge: blocked` stays in the vocabulary. Name the blocker in the progress file.
+- An evidence file takes its topic's status; it carries no status of its own.
+- A proposal no owner has approved is not forge work. It belongs in horizon, as `horizon: idea`.
+
+*Why:* a field that carries a qualifier no longer matches the vocabulary, and a reader cannot
+tell which value applies.
+
 ## Stage label and status content
 
 - The header Status is the stage label. Only the progress file holds status content: current

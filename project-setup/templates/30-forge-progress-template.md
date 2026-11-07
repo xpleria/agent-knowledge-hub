@@ -48,4 +48,6 @@ one-line summary.
 ## Notes
 
 - Quote owner words verbatim here: a forge file is transient. At close-out, convert each quote to a neutral statement before the chronicle entry is written. Do not turn "works" or "fixed" into "accepted".
+- This file holds no log. A decision log goes to `40-<slug>-decisions.md`.
+- Put the reason behind the status here (the blocker, the pause). The index and the Status field never carry it.
 - Keep this file to current state. Git keeps the history.

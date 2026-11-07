@@ -11,6 +11,10 @@
 
 - <YYYY-MM-DD>: closed by owner acceptance of <the whole topic, or the named part only>, or by owner cancellation.
 
+## What shipped (optional)
+
+- <Two to four plain lines for a developer: what the change now does. Omit the section if it adds nothing.>
+
 ## Facts went to
 
 - <docs page, relative link>: <one line: what the page now states>
@@ -34,7 +38,7 @@
 
 - Write this entry once, after sign-off and before the forge folder is deleted.
 - Shed everything else: git history keeps the commits, rounds and drafts. Cite a commit SHA when an old detail is needed.
-- No commit lists, no round logs, no narrative. Facts belong in docs and lessons in lore.
+- No commit lists, no round logs, no narrative. "What shipped" stays a few lines. Facts belong in docs and lessons in lore.
 - Keep the dates. Correct this entry only by adding a dated note at the end; never rewrite the text above.
 - Never quote the owner here. Give the sign-off reference as a message id, link, commit or PR.
 - Record no tokens, passwords, host names, user names or account identifiers.

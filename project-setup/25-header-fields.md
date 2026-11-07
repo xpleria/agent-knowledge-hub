@@ -6,9 +6,10 @@
 - **Updated:** 2026-11-07
 - **Sources:** the owner's lifecycle prompt, section 2.4 (file header); the hub's `project-setup/26-status-vocabulary.md` for the Status values
 
-Rule first: every Markdown page in a project opens with a title that names its topic, then
-the header block below. Agent instruction files (`AGENTS.md`, `CLAUDE.md`) are exempt
-because agents load them in their own format.
+Rule first: every Markdown file in a project opens with a title that names its topic, then
+the header block below. This includes `README.md` at each tree root. The only exemption is
+the agent instruction files (`AGENTS.md`, `CLAUDE.md`), because agents load them in their own
+format.
 
 ```text
 # <Title that names the topic>

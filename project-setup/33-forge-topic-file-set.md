@@ -15,7 +15,7 @@ their content arrives, not all at commencement.
 | `10-<slug>-playbook.md` | When the work has its own method | How the workstream is done: conventions, commands, gates, how to verify. |
 | `20-<slug>-plan.md` | Once the work is staged | The stages. Each stage ends in observable acceptance checks. |
 | `30-<slug>-progress.md` | Once any work has happened | The single source of status: verified done, built but unverified, broken, blockers, next actions. |
-| `40-<slug>-<kind>.md` | As needed | One kind per file: `decisions`, `open-questions`, `findings`, `defects` or `log`. |
+| `40-<slug>-<kind>.md` | As needed | One kind per file. Any kind named for the question it answers, for example `decisions`, `open-questions`, `findings`, `defects`, `log`, `inventory` or `context`. |
 | `99-<slug>-evidence/` | As needed | Evidence that a live statement cites (see [37-evidence-and-helpers.md](37-evidence-and-helpers.md)). |
 
 ## Rules
@@ -26,6 +26,8 @@ their content arrives, not all at commencement.
 - A forge topic is never created just to hold an unverified claim. Record the claim as "to
   verify" in the active topic that does related work, or in horizon.
 - Each `40+` file holds one kind of statement. Split a file that mixes kinds.
+- The `40+` kinds are open. Keep the topic slug in every name (`40-<slug>-findings.md`).
+- The progress file holds no log. A decision log goes to `40-<slug>-decisions.md`.
 - Any entry may be promoted to a folder under the split rules in
   [22-split-and-merge-thresholds.md](22-split-and-merge-thresholds.md).
 

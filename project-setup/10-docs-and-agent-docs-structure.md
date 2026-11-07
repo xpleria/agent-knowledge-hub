@@ -23,8 +23,8 @@ Every project keeps two trees, separated by one boundary.
 - `03-horizon/`: future work nobody has committed to yet.
 - `04-chronicle/`: a thin register, one page per closed forge topic: its closed date, its
   sign-off, where its facts (docs) and lessons (lore) went, its deferred items (horizon
-  links) and one commit range. It holds no commit lists, round logs or narrative, and it
-  is not a published changelog.
+  links) and one commit range, plus an optional short "What shipped" paragraph for developers.
+  It holds no commit lists, round logs or narrative, and it is not a published changelog.
 - Grow the tree by subject, not by date. A folder that answers one question stays a single file.
 - The stage folders are numbered 01 to 04 in lifecycle order. Each has a `00-<stage>-index.md`.
 
