@@ -28,7 +28,7 @@ work is finished is a claim to verify, not a decision.
 | --- | --- |
 | Forge topic index | Required: the sign-off that authorised the work. |
 | Horizon item | `none` until a deferral creates the item; then the deferral sign-off. |
-| Lore topic index | `none` unless a transition created it; then the sign-off that created it. |
+| Lore topic index, or a lore page a transition created | `none` unless a transition created it; then the sign-off that created it. |
 | Stage index (for example `01-lore/00-lore-index.md`) | `none`: no transition created it. |
 | Chronicle entry | Required: the closing sign-off. |
 
@@ -37,6 +37,8 @@ work is finished is a claim to verify, not a decision.
 - Form: `<commenced | accepted | partly accepted | deferred | cancelled> by the owner on
   YYYY-MM-DD; reference: <message id, link, commit or PR>; <qualifier, or none>`.
 - The reference is a message id, a link, a commit or a PR.
+- A pre-existing sign-off with no traceable reference is written `reference: not recorded`.
+  Never invent a reference.
 - A short owner quote may serve as the reference only in transient pages: forge, horizon and
   briefs. Chronicle entries, lore and docs record the date and a non-quote reference.
 - The qualifier is the owner's plain-language qualification, written as a neutral statement.
