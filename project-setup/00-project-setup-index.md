@@ -15,6 +15,7 @@ These rules govern a project's docs, never the hub's own folders (see
 
 - Setting up a project for the first time: read [40-bootstrap-checklist.md](40-bootstrap-checklist.md), then [10-docs-and-agent-docs-structure.md](10-docs-and-agent-docs-structure.md).
 - Choosing tier folders in `docs/` or writing the glossary: read [12-docs-tiers-and-glossary.md](12-docs-tiers-and-glossary.md).
+- Writing a folder index or checking its table: read [23-index-format.md](23-index-format.md).
 - Naming files or writing an index: read [20-naming-and-index-conventions.md](20-naming-and-index-conventions.md).
 - Choosing an uppercase name or classifying a root file: read [15-uppercase-and-root-files.md](15-uppercase-and-root-files.md).
 - Choosing a number prefix or retiring a permanent ID: read [21-numbering-rules.md](21-numbering-rules.md).
@@ -33,6 +34,9 @@ These rules govern a project's docs, never the hub's own folders (see
 | [20-naming-and-index-conventions.md](20-naming-and-index-conventions.md) | How are files and folders named? |
 | [21-numbering-rules.md](21-numbering-rules.md) | What do number prefixes mean, and which entries are exempt? |
 | [22-split-and-merge-thresholds.md](22-split-and-merge-thresholds.md) | When does a file, folder or index get split, promoted, grouped, collapsed or merged? |
+| [23-index-format.md](23-index-format.md) | What must a folder index contain, and how is its table laid out? |
+| [25-headers-and-status.md](25-headers-and-status.md) | Which header fields does a page carry, and which Status values are allowed? |
+| [27-one-question-and-citations.md](27-one-question-and-citations.md) | How many questions may a file answer, and how is code cited? |
 | [30-lifecycle-and-acceptance.md](30-lifecycle-and-acceptance.md) | How does work move from future to active to accepted, and when do docs update? |
 | [40-bootstrap-checklist.md](40-bootstrap-checklist.md) | What do I create, in what order, when I set up a project? |
 | [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md) | How do I deploy and prove a deploy is live, and how do I version and release it? |
