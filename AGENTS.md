@@ -42,8 +42,10 @@ project rules, item IDs, product names or credentials. Exception: a recall entry
 ## Page rules
 
 - Header: Scope (one question), Keywords, Status, Updated, Sources or Source project.
-- 25 to 60 lines per page, one fact per file, rule first then the reason. This limit
-  applies to hub pages only, not to project docs. Why: pages are read into context.
+- 25 to 60 lines per page is the recommended size, not a hard limit; one fact per file,
+  rule first then the reason. It applies to hub pages only, not to project docs. A
+  project's `AGENTS.md` may be longer when the project needs it. Why: pages are read
+  into context, so size is a cost.
 - Dates only in the `Updated` header field (YYYY-MM-DD), the date of the last substantive
   change. No incident narration, no item IDs. Describe the pattern, not the event.
   Exception: a project's dated records (chronicle entries, sign-offs, decision dates)
