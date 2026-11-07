@@ -9,13 +9,14 @@
 ## Before deploying
 
 - Deploy from a known state. If the working tree holds someone else's uncommitted work, say so and let the owner choose.
-- Commit before the deploy, so each item is visible on its own. A deploy changes no code and creates no commit.
+- Commit before the deploy, when commits are permitted (see [45-git-rules.md](45-git-rules.md)), so each item is visible on its own. A deploy changes no code and creates no commit.
 - Run the project's own deploy script. Do not hand-type upload steps.
 - Offer a dry-run mode that builds and checks artefacts without credentials or upload.
 
 ## Secrets
 
-- Keep credentials in a gitignored env file. The deploy script reads it as data and never prints it.
+- Two scopes. Documentation and migration work never reads, prints or moves credential files.
+- Deploy scripts: keep credentials in a gitignored env file. The deploy script reads it as data and never prints it.
 - Do not source the env file into a shell, and do not pass secrets as command-line arguments, which show up in process lists.
 - Use certificate-verified encrypted transfer. Never fall back to plain transfer or disable verification. If the certificate does not match the host name, find the provider's canonical host name.
 
