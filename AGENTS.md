@@ -60,7 +60,7 @@ project rules, item IDs, product names or credentials. Exception: a recall entry
 
 ## Git rules
 
-- Commit each logical change locally when the owner or project permits commits; message names the folder (`roles: ...`).
+- Commit each logical change locally when the owner or project permits commits, grouped by concern ([practices/commit-granularity.md](practices/commit-granularity.md)); message names the folder (`roles: ...`).
 - No remote and no push unless the owner says so. Never force-push.
 - Never discard work with checkout, restore or reset; use `git stash push -u -m <name>`.
 - Never write secrets, tokens or `.env` contents here.

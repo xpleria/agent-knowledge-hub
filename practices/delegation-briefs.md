@@ -23,6 +23,7 @@ A brief is the only context a delegated agent gets. Make it complete.
 
 - Keep a run to about three related items. Chain runs with an explicit order.
 - Name the files each agent may touch, so parallel agents do not collide.
+- Tell the agent: "group edits by concern, not by file; see commit-granularity".
 - Tell the agent that a partial report with evidence is better than a complete-looking one without it.
 - When the owner adds something mid-run, steer the running agent. Do not start a second agent in the same tree.
 - Put this denied-pattern list in every brief, in brief form: "Do not use heredocs, inline interpreters (`python -c`, `node -e`, `bash -c`), bulk in-place rewrites (`sed -i`, `perl -pi`), recursive deletes (`rm -rf`), or an edit chained to a run. These are denied without an approval prompt and stop the run. Edit with the file tools; to undo an edit, restore the backup you made and confirm it with `cmp`. Never use `git checkout`, `git restore` or `git reset`. If a command is denied, stop and report it exactly."

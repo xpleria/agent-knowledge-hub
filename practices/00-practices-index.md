@@ -28,6 +28,7 @@ These habits apply in any project. A project's own rules override them.
 | [evidence-and-verification.md](evidence-and-verification.md) | What evidence gates a claim, and how are reports worded? |
 | [evidence-levels.md](evidence-levels.md) | Which evidence level did a check reach, and what does it not prove? |
 | [git-safety.md](git-safety.md) | How do I undo or set work aside without losing anything? |
+| [commit-granularity.md](commit-granularity.md) | How much work belongs in one commit, and what must never be split? |
 | [one-writer-per-tree.md](one-writer-per-tree.md) | How do parallel agents share a working tree without collisions? |
 | [screenshots-and-testing-discipline.md](screenshots-and-testing-discipline.md) | How do I capture and judge visual evidence honestly? |
 | [test-design.md](test-design.md) | What should a test assert, so a green run means the rule holds? |

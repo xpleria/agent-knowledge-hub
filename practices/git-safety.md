@@ -33,5 +33,6 @@ only copy of a working change. A stash costs one command and loses nothing.
 
 - [one-writer-per-tree.md](one-writer-per-tree.md): one writing agent per tree, and what to do after a collision.
 - [project-setup/45-git-rules.md](../project-setup/45-git-rules.md): commit, push and permission rules for projects.
+- [commit-granularity.md](commit-granularity.md): how much work one commit holds, and what must never be split.
 - `recall/30-two-writers-one-tree-tangled-commits.md`: the scenario behind the one-writer rule.
 
