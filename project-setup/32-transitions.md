@@ -24,7 +24,7 @@ happens without a sign-off (see [31-sign-off-rules.md](31-sign-off-rules.md)).
 - Write the chronicle entry before deleting the forge folder. After deletion, the entry is the
   register of the closed topic.
 - A deferral writes no chronicle entry. The entry is written when the deferred work later
-  closes. *(Interpretation of decision 2: a deferred topic is not closed.)*
+  closes. Interpretation: a deferred topic is not closed, so it writes no chronicle entry until the deferred work closes.
 - Shedding is safe because git history keeps the material. Deleted, not archived. When an old
   detail is needed, cite its commit SHA.
 

@@ -13,7 +13,7 @@
 3. Test the end user's effect, not a flag or an internal signal.
 4. If the defect does not reproduce, do not guess a fix. Report the device steps you would need.
 5. Run the full suite, saving its output to a file so failing names survive.
-6. Commit each item separately, before any deploy.
+6. Commit each item separately, before any deploy, when commits are permitted. Otherwise leave the changes uncommitted and say so.
 
 ## Measure before and after
 

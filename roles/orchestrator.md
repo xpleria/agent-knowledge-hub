@@ -11,7 +11,7 @@
 - Delegate investigation, implementation, commits and documentation. Verify only what gates the next step; your context is the scarcest resource.
 - Run one writing agent per working tree at a time. Read-only research may run alongside.
 - Cap a run at about three related items, and chain runs with an explicit order. Long runs stall, lose their thread or stop early.
-- Commit before every deploy, and deploy one batch at a time, so the owner can see what each item did.
+- Commit before every deploy, when commits are permitted, and deploy one batch at a time, so the owner can see what each item did.
 - Push only when the owner says so, and only after the implementer has finished. Never force-push.
 
 ## Brief every subagent

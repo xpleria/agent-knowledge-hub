@@ -1,38 +1,23 @@
 # Project setup index
 
-- **Scope:** How is a new project's documentation laid out, and which starter files and steps bootstrap it from the hub?
-- **Keywords:** project setup, bootstrap, new project, docs, agent-docs, lifecycle, lore, forge, horizon, chronicle, naming, index, templates, acceptance, deploy, versioning, release
+- **Scope:** How is a new project's documentation laid out, and which starter files and steps bootstrap or migrate it from the hub?
+- **Keywords:** project setup, bootstrap, new project, migration, docs, agent-docs, lifecycle, lore, forge, horizon, chronicle, naming, index, templates, acceptance, deploy, versioning, release, git
 - **Status:** current
 - **Updated:** 2026-11-07
 - **Sources:** distilled from the documentation structure of a Godot project; generalised here
 
-Read this when an agent sets up a new project, or when an existing project has no
-agreed docs structure. Start with the bootstrap checklist, then fill in the templates.
-These rules govern a project's docs, never the hub's own folders (see
-[contribute.md](../contribute.md)).
+Read this when an agent sets up a new project, or when an existing project has no agreed docs structure. These rules govern a project's docs, never the hub's own folders (see [contribute.md](../contribute.md)).
 
 ## Reading guide
 
-- Setting up a project for the first time: read [40-bootstrap-checklist.md](40-bootstrap-checklist.md), then [10-docs-and-agent-docs-structure.md](10-docs-and-agent-docs-structure.md).
-- Choosing tier folders in `docs/` or writing the glossary: read [12-docs-tiers-and-glossary.md](12-docs-tiers-and-glossary.md).
-- Writing a folder index or checking its table: read [23-index-format.md](23-index-format.md).
-- Header fields or Status values on a page: read [25-header-fields.md](25-header-fields.md), then [26-status-vocabulary.md](26-status-vocabulary.md).
-- Naming files: read [20-naming-and-index-conventions.md](20-naming-and-index-conventions.md).
-- Choosing an uppercase name or classifying a root file: read [15-uppercase-and-root-files.md](15-uppercase-and-root-files.md).
-- A rule conflicts with a project's own file, or you need to know where a convention is written: read [16-precedence-rule.md](16-precedence-rule.md), then [18-conventions-location.md](18-conventions-location.md).
-- Choosing a number prefix or retiring a permanent ID: read [21-numbering-rules.md](21-numbering-rules.md).
-- Deciding when a file or folder must be split, merged or grouped: read [22-split-and-merge-thresholds.md](22-split-and-merge-thresholds.md).
-- Deciding whether work is accepted, deferred or cancelled: read [30-lifecycle-and-acceptance.md](30-lifecycle-and-acceptance.md), then [31-sign-off-rules.md](31-sign-off-rules.md) and [32-transitions.md](32-transitions.md).
-- A claim, a status line or a code/docs conflict: read [38-code-versus-docs.md](38-code-versus-docs.md) and [39-claim-verification.md](39-claim-verification.md).
-- Writing a proposed decision: read [34-proposed-decisions-and-ids.md](34-proposed-decisions-and-ids.md).
-- Creating a forge topic or its files: read [33-forge-topic-file-set.md](33-forge-topic-file-set.md).
-- Adding or leaving horizon: read [35-horizon-item-shape.md](35-horizon-item-shape.md).
-- Writing a lesson into lore: read [36-lore-rules.md](36-lore-rules.md).
-- Keeping evidence or a helper program: read [37-evidence-and-helpers.md](37-evidence-and-helpers.md), then [55-evidence-index-format.md](55-evidence-index-format.md).
-- Setting up deploy and verification: read [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md).
-- Committing, pushing or undoing work in a project: read [45-git-rules.md](45-git-rules.md).
-- Migrating a project that already has docs, notes or agent files: read [60-migrate-existing-project.md](60-migrate-existing-project.md), then pages 62 to 66 in order.
-- Starter files: [templates/00-templates-index.md](templates/00-templates-index.md).
+- Setting up a new project: read [40-bootstrap-checklist.md](40-bootstrap-checklist.md), then [10-docs-and-agent-docs-structure.md](10-docs-and-agent-docs-structure.md).
+- Migrating an existing project: read [60-migrate-existing-project.md](60-migrate-existing-project.md), then pages 62 to 66 in order.
+- Layout, names and numbers: [12](12-docs-tiers-and-glossary.md), [15](15-uppercase-and-root-files.md), [16](16-precedence-rule.md), [18](18-conventions-location.md), [20](20-naming-and-index-conventions.md), [21](21-numbering-rules.md), [23](23-index-format.md).
+- Thresholds, headers, status and citations: [22](22-split-and-merge-thresholds.md), [25](25-header-fields.md), [26](26-status-vocabulary.md), [27](27-one-question-and-citations.md).
+- Lifecycle, sign-off and topics: [30](30-lifecycle-and-acceptance.md), [31](31-sign-off-rules.md), [32](32-transitions.md), [33](33-forge-topic-file-set.md), [34](34-proposed-decisions-and-ids.md), [35](35-horizon-item-shape.md), [36](36-lore-rules.md).
+- Docs versus code, claims and evidence: [38](38-code-versus-docs.md), [39](39-claim-verification.md), [37](37-evidence-and-helpers.md), [55](55-evidence-index-format.md).
+- Deploy, verification and git: [50](50-deploy-and-verify-habits.md), [45](45-git-rules.md).
+- Agent instruction section: [65](65-agent-instruction-section.md). Starter files: [templates/00-templates-index.md](templates/00-templates-index.md).
 
 ## Children
 
