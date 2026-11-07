@@ -3,8 +3,13 @@
 - **Scope:** How does an agent find a past scenario or lesson in the recall journal when the owner asks for it?
 - **Keywords:** recall, remember, search, grep, journal, scenario, lesson, index, keywords, source project
 - **Status:** current
-- **Updated:** 2026-11-01
+- **Updated:** 2026-11-07
 - **Sources:** the entries listed below; `contribute.md` (*Add a recall entry*)
+
+## Reading guide
+
+- Owner asks "what happened when...": read *How to search* below, then open the entry whose Scope line fits.
+- Adding an entry: read `contribute.md` first, then the *Adding entries* section at the end.
 
 ## How to search
 
@@ -13,7 +18,7 @@ Search the keywords with grep. Use several words and try synonyms. Examples:
 ```bash
 grep -ril "overclaim" recall/
 grep -ri -n "stash\|checkout" recall/
-grep -rl "Source project: ganvchi-court" recall/
+grep -rl "Source project:" recall/
 ```
 
 1. Start with the owner's words. Grep each distinctive word, case-insensitively.

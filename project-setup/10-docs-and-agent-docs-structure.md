@@ -3,8 +3,8 @@
 - **Scope:** What belongs in a project's `docs/` tree and what belongs in its `agent-docs/` tree?
 - **Keywords:** docs, agent-docs, settled facts, normative, descriptive, authority order, lore, forge, horizon, chronicle, work lifecycle, boundary, one-way links
 - **Status:** current
-- **Updated:** 2026-11-03
-- **Sources:** distilled from a Godot project's `docs/README.md` and `agent-docs/README.md` (ganvchi-court)
+- **Updated:** 2026-11-07
+- **Sources:** distilled from a Godot project's `docs/README.md` and `agent-docs/README.md`
 
 Every project keeps two trees, separated by one boundary.
 
@@ -12,21 +12,21 @@ Every project keeps two trees, separated by one boundary.
 
 - Holds facts that are settled: what must be true (normative) and what the code and tooling do now (descriptive).
 - Never holds status, plans, proposals, open questions or "not yet built" notes.
-- Tiers run in authority order, numbered so the reading order is visible, for example:
-  rules, requirements, architecture, development, testing, decisions, implementation notes.
-- A higher tier governs a lower one. The lowest tier, implementation notes, describes and
-  never overrides.
-- A normative change is made only by the project owner. A descriptive file that no longer
-  matches the code is a defect.
+- Tier folders, their authority order and the change rules for each tier are set out in
+  [12-docs-tiers-and-glossary.md](12-docs-tiers-and-glossary.md).
 
 ## `agent-docs/`: the work lifecycle
 
-- `lore/`: lessons, rationale and pitfalls from finished or cancelled work. A living record:
+- `01-lore/`: lessons, rationale and pitfalls from finished or cancelled work. A living record:
   replace obsolete statements, delete dead ones.
-- `forge/`: active work, one topic folder per workstream. Status lives only in the topic's progress file.
-- `horizon/`: future work nobody has committed to yet.
-- `chronicle/`: one page per closed forge topic, the history of finished work for the team: decisions, commits, acceptances and deferred items. It is not a published changelog.
+- `02-forge/`: active work, one topic folder per workstream. Status lives only in the topic's progress file.
+- `03-horizon/`: future work nobody has committed to yet.
+- `04-chronicle/`: a thin register, one page per closed forge topic: its closed date, its
+  sign-off, where its facts (docs) and lessons (lore) went, its deferred items (horizon
+  links) and one commit range, plus an optional short "What shipped" paragraph for developers.
+  It holds no commit lists, round logs or narrative, and it is not a published changelog.
 - Grow the tree by subject, not by date. A folder that answers one question stays a single file.
+- The stage folders are numbered 01 to 04 in lifecycle order. Each has a `00-<stage>-index.md`.
 
 ## Boundary rules
 

@@ -3,33 +3,28 @@
 - **Scope:** How does work move between future, active, accepted and cancelled states, and when do the settled-facts docs get updated?
 - **Keywords:** lifecycle, acceptance, sign-off, commencement, deferral, cancellation, forge, horizon, chronicle, lore, progress file, docs timing, pending list, awaiting owner check, woven lessons, status wording
 - **Status:** current
-- **Updated:** 2026-11-03
-- **Sources:** distilled from a Godot project's work lifecycle (ganvchi-court `agent-docs/README.md`, `AGENTS.md` *Documentation and work tracking*)
+- **Updated:** 2026-11-07
+- **Sources:** distilled from a Godot project's work lifecycle (the project's `agent-docs/README.md` and its `AGENTS.md` *Documentation and work tracking* section)
 
 ## Sign-off belongs to the owner
 
-- A topic moves only after the project owner signs off. Record the sign-off in the topic index as "accepted by the owner on <date>", with any plain-language qualifier the owner gave.
+- A topic moves only after the owner signs off its commencement, acceptance, deferral or cancellation. Each sign-off is recorded in the Sign-off field of its record (see [31-sign-off-rules.md](31-sign-off-rules.md)).
 - Owner quotes never reach a permanent page as quotes. At acceptance or close-out, convert each quote to a neutral statement, then delete the quotation marks (hub: `practices/owner-words-in-docs.md`).
 - Passing tests, a clean review or an agent's own judgement are not sign-off.
 
 ## Transitions
 
-| Sign-off | Effect |
-| --- | --- |
-| Commencement | Topic moves from horizon (or nowhere) into the active forge, with playbook, plan and progress files. |
-| Acceptance | Facts go to `docs/`, lessons are woven into lore, any deferred remainder goes to horizon, a chronicle entry is written, and then the forge topic is deleted. |
-| Deferral | Topic moves back to horizon. |
-| Cancellation | Lessons are woven into lore; the rest is dropped (git keeps it). |
-
+- Each sign-off triggers a document transition in the same session. The table of transitions
+  (commencement, acceptance, partial acceptance, deferral, cancellation) is in
+  [32-transitions.md](32-transitions.md).
 - Never start a parallel topic for work that an active topic already covers. Continue that topic.
-- Write the chronicle entry before deleting the forge folder. Once the folder is gone, the entry is the only record of the topic's decisions, commits and acceptances.
 
 ## When docs change
 
-- A behaviour change ships code-only first. The matching settled-facts doc is updated once, after the owner accepts the item.
-- Until then, the pending doc update sits in the topic's progress file.
-- There is no separate docs sign-off. The docs are accepted with the implementation they describe.
-- Use the status `implemented + deployed, awaiting owner check` until the owner speaks.
+- A behaviour change outside an open forge topic (a fix, or work already accepted) updates the matching settled-facts doc in the same change.
+- A behaviour change inside an open forge topic waits for acceptance. The pending docs update is listed in the topic's progress file, so `docs/` never describes unaccepted behaviour.
+- A descriptive doc that no longer matches the code is a defect, and it is fixed in the same change.
+- Record "implemented + deployed, awaiting owner check" as an entry in the standing list of the progress file, not as a Status value (see [25-header-fields.md](25-header-fields.md) and [26-status-vocabulary.md](26-status-vocabulary.md)). Keep the entry until the owner speaks.
 
 ## Lessons are woven, not dumped
 
