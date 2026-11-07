@@ -13,6 +13,7 @@ the hub's entry file. Read it first, then the rules in [AGENTS.md](AGENTS.md).
 ## Start here
 
 - **Setting up a new project:** [project-setup/00-project-setup-index.md](project-setup/00-project-setup-index.md), then the bootstrap checklist and [templates](project-setup/templates/00-templates-index.md).
+- **Migrating an existing project into `docs/` and `agent-docs/`:** [project-setup/60-migrate-existing-project.md](project-setup/60-migrate-existing-project.md).
 - **Delegating or orchestrating:** [roles/orchestrator.md](roles/orchestrator.md), then [practices/delegation-briefs.md](practices/delegation-briefs.md).
 - **Implementing, testing or documenting in a role:** the page for each role you hold in [roles/00-roles-index.md](roles/00-roles-index.md), and [practices/00-practices-index.md](practices/00-practices-index.md) before committing.
 - **Recalling a past scenario:** grep `recall/` by keyword, starting at [recall/00-recall-index.md](recall/00-recall-index.md).
@@ -28,6 +29,7 @@ the hub's entry file. Read it first, then the rules in [AGENTS.md](AGENTS.md).
 | [roles/00-roles-index.md](roles/00-roles-index.md) | What does an orchestrator, implementer, documentation writer or tester do, and what traps apply? |
 | [practices/00-practices-index.md](practices/00-practices-index.md) | Which cross-project working habits apply: briefs, evidence, git safety, owner questions? |
 | [project-setup/00-project-setup-index.md](project-setup/00-project-setup-index.md) | How is a new project's `docs/` and `agent-docs/` laid out, and how do I bootstrap it? |
+| [project-setup/60-migrate-existing-project.md](project-setup/60-migrate-existing-project.md) | How do I migrate a project that already has docs, notes or agent files? |
 | [project-setup/templates/00-templates-index.md](project-setup/templates/00-templates-index.md) | Which starter files (AGENTS.md, agent-docs README, forge topic, horizon item, chronicle entry) can I copy? |
 | [engines/00-engines-index.md](engines/00-engines-index.md) | Which engine-specific traps are broadly useful? (Labelled per engine.) |
 

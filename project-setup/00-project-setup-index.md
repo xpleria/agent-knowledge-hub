@@ -31,6 +31,7 @@ These rules govern a project's docs, never the hub's own folders (see
 - Keeping evidence or a helper program: read [37-evidence-and-helpers.md](37-evidence-and-helpers.md), then [55-evidence-index-format.md](55-evidence-index-format.md).
 - Setting up deploy and verification: read [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md).
 - Committing, pushing or undoing work in a project: read [45-git-rules.md](45-git-rules.md).
+- Migrating a project that already has docs, notes or agent files: read [60-migrate-existing-project.md](60-migrate-existing-project.md), then pages 62 to 66 in order.
 - Starter files: [templates/00-templates-index.md](templates/00-templates-index.md).
 
 ## Children
@@ -63,4 +64,10 @@ These rules govern a project's docs, never the hub's own folders (see
 | [45-git-rules.md](45-git-rules.md) | Which git actions need permission, and how are commits, pushes and undo kept safe? |
 | [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md) | How do I deploy and prove a deploy is live, and how do I version and release it? |
 | [55-evidence-index-format.md](55-evidence-index-format.md) | Which columns does an evidence index carry? |
+| [60-migrate-existing-project.md](60-migrate-existing-project.md) | Which starting case applies to an existing project, and what must be checked before any move? |
+| [62-migration-inventory-and-proposal.md](62-migration-inventory-and-proposal.md) | What does the read-only inventory record, and what must the owner proposal contain? |
+| [63-migration-execute.md](63-migration-execute.md) | In what order does an approved migration move, weave, relocate and re-point files? |
+| [64-migration-verify.md](64-migration-verify.md) | Which checks must pass before a migration is reported as done? |
+| [65-agent-instruction-section.md](65-agent-instruction-section.md) | Where does the documentation section go among several agent files, and how is old agent text reconciled? |
+| [66-migration-report-and-obligations.md](66-migration-report-and-obligations.md) | What does the final migration report contain, and what obligations follow? |
 | [templates/00-templates-index.md](templates/00-templates-index.md) | Which starter files can I copy? |
