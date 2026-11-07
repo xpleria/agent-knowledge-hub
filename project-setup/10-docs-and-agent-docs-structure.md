@@ -12,12 +12,8 @@ Every project keeps two trees, separated by one boundary.
 
 - Holds facts that are settled: what must be true (normative) and what the code and tooling do now (descriptive).
 - Never holds status, plans, proposals, open questions or "not yet built" notes.
-- Tiers run in authority order, numbered so the reading order is visible, for example:
-  rules, requirements, architecture, development, testing, decisions, implementation notes.
-- A higher tier governs a lower one. The lowest tier, implementation notes, describes and
-  never overrides.
-- A normative change is made only by the project owner. A descriptive file that no longer
-  matches the code is a defect.
+- Tier folders, their authority order and the change rules for each tier are set out in
+  [12-docs-tiers-and-glossary.md](12-docs-tiers-and-glossary.md).
 
 ## `agent-docs/`: the work lifecycle
 
