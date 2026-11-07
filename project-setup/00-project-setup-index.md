@@ -19,6 +19,7 @@ These rules govern a project's docs, never the hub's own folders (see
 - Header fields or Status values on a page: read [25-header-fields.md](25-header-fields.md), then [26-status-vocabulary.md](26-status-vocabulary.md).
 - Naming files: read [20-naming-and-index-conventions.md](20-naming-and-index-conventions.md).
 - Choosing an uppercase name or classifying a root file: read [15-uppercase-and-root-files.md](15-uppercase-and-root-files.md).
+- A rule conflicts with a project's own file, or you need to know where a convention is written: read [16-precedence-rule.md](16-precedence-rule.md), then [18-conventions-location.md](18-conventions-location.md).
 - Choosing a number prefix or retiring a permanent ID: read [21-numbering-rules.md](21-numbering-rules.md).
 - Deciding when a file or folder must be split, merged or grouped: read [22-split-and-merge-thresholds.md](22-split-and-merge-thresholds.md).
 - Deciding whether work is accepted, deferred or cancelled: read [30-lifecycle-and-acceptance.md](30-lifecycle-and-acceptance.md), then [31-sign-off-rules.md](31-sign-off-rules.md) and [32-transitions.md](32-transitions.md).
@@ -36,6 +37,8 @@ These rules govern a project's docs, never the hub's own folders (see
 | [10-docs-and-agent-docs-structure.md](10-docs-and-agent-docs-structure.md) | What goes in `docs/` versus `agent-docs/`? |
 | [12-docs-tiers-and-glossary.md](12-docs-tiers-and-glossary.md) | Which tier folders does `docs/` use, in what authority order, and where does the glossary go? |
 | [15-uppercase-and-root-files.md](15-uppercase-and-root-files.md) | Which files keep uppercase names, and how is an unfamiliar root file classified? |
+| [16-precedence-rule.md](16-precedence-rule.md) | Which rule wins: the hub on layout, the project's agent file on everything else? |
+| [18-conventions-location.md](18-conventions-location.md) | Where is each part of the documentation convention written, once? |
 | [20-naming-and-index-conventions.md](20-naming-and-index-conventions.md) | How are files and folders named? |
 | [21-numbering-rules.md](21-numbering-rules.md) | What do number prefixes mean, and which entries are exempt? |
 | [22-split-and-merge-thresholds.md](22-split-and-merge-thresholds.md) | When does a file, folder or index get split, promoted, grouped, collapsed or merged? |
