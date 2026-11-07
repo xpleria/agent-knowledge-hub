@@ -3,7 +3,7 @@
 - **Scope:** Which engine-specific pages exist, and how far do they apply?
 - **Keywords:** engine, Godot, game engine, engine-specific, traps, UI, layout, input, web export
 - **Status:** current
-- **Updated:** 2026-11-01
+- **Updated:** 2026-11-07
 - **Sources:** the engine pages' own sources
 
 Engine pages hold traps that are specific to one engine. Each page is labelled with its
@@ -12,6 +12,11 @@ applying a trap, because engines change behaviour between releases.
 
 Only broadly useful, reusable traps belong here. A project's own code pattern belongs in
 that project.
+
+## Reading guide
+
+- Working in Godot 4 UI, layout, input or viewport code: read [godot-ui-traps.md](godot-ui-traps.md) first, then check the Godot version you use.
+- Any other engine: no page yet. Do not apply Godot traps elsewhere.
 
 ## Children
 
