@@ -16,7 +16,7 @@ These rules govern a project's docs, never the hub's own folders (see
 - Setting up a project for the first time: read [40-bootstrap-checklist.md](40-bootstrap-checklist.md), then [10-docs-and-agent-docs-structure.md](10-docs-and-agent-docs-structure.md).
 - Choosing tier folders in `docs/` or writing the glossary: read [12-docs-tiers-and-glossary.md](12-docs-tiers-and-glossary.md).
 - Writing a folder index or checking its table: read [23-index-format.md](23-index-format.md).
-- Naming files or writing an index: read [20-naming-and-index-conventions.md](20-naming-and-index-conventions.md).
+- Naming files: read [20-naming-and-index-conventions.md](20-naming-and-index-conventions.md).
 - Choosing an uppercase name or classifying a root file: read [15-uppercase-and-root-files.md](15-uppercase-and-root-files.md).
 - Choosing a number prefix or retiring a permanent ID: read [21-numbering-rules.md](21-numbering-rules.md).
 - Deciding when a file or folder must be split, merged or grouped: read [22-split-and-merge-thresholds.md](22-split-and-merge-thresholds.md).

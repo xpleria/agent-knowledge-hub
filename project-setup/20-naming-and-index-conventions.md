@@ -1,44 +1,55 @@
-# Naming and index conventions
+# Naming conventions
 
-- **Scope:** How are files, folders, indexes, headers and splits named and maintained in a new project's docs tree?
-- **Keywords:** naming, numbering, NN-slug, index, 00 index, 99 evidence, header, scope, keywords, status, sources, split, promote, merge, gaps, lowercase, no dates, no version suffix
+- **Scope:** How are the names of files, folders and evidence files built in a project's docs and agent-docs trees?
+- **Keywords:** naming, slug, lowercase, hyphen, role words, index, plan, progress, playbook, findings, decisions, log, evidence, notes, suffix, version, date, unique name, unambiguous
 - **Status:** current
 - **Updated:** 2026-11-07
-- **Sources:** distilled from the conventions in a Godot project's `docs/README.md` and `agent-docs/README.md`
+- **Sources:** the owner's lifecycle prompt, section 2.1 (names); the hub's earlier naming conventions, now split across the pages linked below
 
-## Names
+Rule first: names are lowercase and hyphen-separated, and the slug names the topic. Within a
+tree, a name with its number removed is unique.
 
-- Files and folders are lowercase, hyphen-separated, with a two-digit prefix: `NN-topic-slug.md` and `NN-topic-slug/`. The only uppercase file is `README.md`.
-- The slug names the topic. Never use a role word alone: `20-pacing-choreography.md`, not `20-choreography.md`, `plan.md` or `PROGRESS.md`.
-- No version, status or date suffixes (`-v2`, `-old`, `-final`, `-<date>`). History lives in git.
-- Within one tree, a name minus its number is unique, so any file can be cited by its name alone.
+## Shape
 
-## Numbers
+- Files are `NN-topic-slug.md`. Folders are `NN-topic-slug/`. The number is governed by
+  [21-numbering-rules.md](21-numbering-rules.md).
+- The index of a folder is `00-<folder-slug>-index.md`. The role word `index` is allowed there
+  because the folder slug says which index it is.
+- Evidence files inside a `99-<topic-slug>-evidence/` folder are lowercase, hyphen-separated and
+  descriptive. They carry no number.
+- Uppercase names are kept only for conventional files (see
+  [15-uppercase-and-root-files.md](15-uppercase-and-root-files.md)).
 
-- The prefix is the suggested reading order within its directory: dependencies first, importance second, never chronology.
-- `00` is reserved for the folder's index. `99` is reserved for an evidence appendix.
-- Leave gaps (`10, 20, 30`) so an insertion does not rename siblings. Renumber only when no gap is left, and fix every inbound link in the same change.
-- Permanent IDs (for example decision records) are never renumbered.
+## The slug names the topic
 
-## Headers
+- Never use a role word alone as a slug. Role words are `index`, `plan`, `progress`,
+  `playbook`, `findings`, `decisions`, `log`, `evidence` and `notes`.
+- Write `20-pacing-plan.md`, not `20-plan.md`. Write `10-checkout-retry-playbook.md`, not
+  `PLAYBOOK.md`.
+- A file must be unambiguous when read outside its folder.
 
-Every Markdown file opens with a title and this block:
+*Why:* a search hit or a citation shows only the path. A bare role word says nothing about
+which topic it belongs to.
 
-- **Scope:** one sentence, the single question the file answers.
-- **Keywords:** what a searcher would type: synonyms, identifiers, symbols.
-- **Status:** current, or the lifecycle state for work files.
-- **Updated:** the date of the last change, YYYY-MM-DD.
-- **Sources:** what the file derives from.
+## Names are unique within a tree
 
-## Indexes
+- Within one tree, a name with its number removed is unique.
+- A file can then be cited by its name alone, and every search hit identifies itself.
 
-- Every folder has a `00-<folder-slug>-index.md`: what the folder covers, a reading guide ("read X first if you change Y"), and a table with one row per child.
-- An index holds no substance beyond that summary. Update it in the same change that adds, renames, moves or removes a child.
+## No version, status or date in names
 
-## Split and merge triggers
+- Do not add version, status or date suffixes: `-v2`, `-r3`, `-old`, `-final`, `-superseded`,
+  `-2026-10-05`.
+- Where a document sits says what stage it is in. Dated records keep their dates inside the
+  page, not in the name.
+- Git history keeps earlier versions.
 
-- Split a file that answers two separable questions, or grows past about 300 lines.
-- Promote a file to a folder (same number and slug) when a split would yield three or more parts read together.
-- Group siblings into a subfolder when a folder exceeds about 12 numbered entries.
-- Collapse a folder that holds one content file into a single file.
-- Merge two files that are always read together and total under about 150 lines.
+*Why:* a suffix goes stale the moment the document changes stage, and then the name lies.
+
+## Where the other rules live
+
+- Numbers: [21-numbering-rules.md](21-numbering-rules.md).
+- Uppercase and root files: [15-uppercase-and-root-files.md](15-uppercase-and-root-files.md).
+- Index contents: [23-index-format.md](23-index-format.md).
+- Header fields: [25-headers-and-status.md](25-headers-and-status.md).
+- Split, merge and grouping thresholds: [22-split-and-merge-thresholds.md](22-split-and-merge-thresholds.md).
