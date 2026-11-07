@@ -16,6 +16,9 @@ These rules govern a project's docs, never the hub's own folders (see
 - Setting up a project for the first time: read [40-bootstrap-checklist.md](40-bootstrap-checklist.md), then [10-docs-and-agent-docs-structure.md](10-docs-and-agent-docs-structure.md).
 - Choosing tier folders in `docs/` or writing the glossary: read [12-docs-tiers-and-glossary.md](12-docs-tiers-and-glossary.md).
 - Naming files or writing an index: read [20-naming-and-index-conventions.md](20-naming-and-index-conventions.md).
+- Choosing an uppercase name or classifying a root file: read [15-uppercase-and-root-files.md](15-uppercase-and-root-files.md).
+- Choosing a number prefix or retiring a permanent ID: read [21-numbering-rules.md](21-numbering-rules.md).
+- Deciding when a file or folder must be split, merged or grouped: read [22-split-and-merge-thresholds.md](22-split-and-merge-thresholds.md).
 - Deciding whether work is accepted, deferred or cancelled: read [30-lifecycle-and-acceptance.md](30-lifecycle-and-acceptance.md).
 - Setting up deploy and verification: read [50-deploy-and-verify-habits.md](50-deploy-and-verify-habits.md).
 - Starter files: [templates/00-templates-index.md](templates/00-templates-index.md).
@@ -26,7 +29,9 @@ These rules govern a project's docs, never the hub's own folders (see
 | --- | --- |
 | [10-docs-and-agent-docs-structure.md](10-docs-and-agent-docs-structure.md) | What goes in `docs/` versus `agent-docs/`? |
 | [12-docs-tiers-and-glossary.md](12-docs-tiers-and-glossary.md) | Which tier folders does `docs/` use, in what authority order, and where does the glossary go? |
+| [15-uppercase-and-root-files.md](15-uppercase-and-root-files.md) | Which files keep uppercase names, and how is an unfamiliar root file classified? |
 | [20-naming-and-index-conventions.md](20-naming-and-index-conventions.md) | How are files and folders named? |
+| [21-numbering-rules.md](21-numbering-rules.md) | What do number prefixes mean, and which entries are exempt? |
 | [22-split-and-merge-thresholds.md](22-split-and-merge-thresholds.md) | When does a file, folder or index get split, promoted, grouped, collapsed or merged? |
 | [30-lifecycle-and-acceptance.md](30-lifecycle-and-acceptance.md) | How does work move from future to active to accepted, and when do docs update? |
 | [40-bootstrap-checklist.md](40-bootstrap-checklist.md) | What do I create, in what order, when I set up a project? |
