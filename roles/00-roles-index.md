@@ -3,8 +3,8 @@
 - **Scope:** Which role-specific guidance applies to the role an agent holds, and which page to read for it?
 - **Keywords:** roles, orchestrator, implementer, documentation writer, tester, subagent, delegation, role, handoff, evidence
 - **Status:** current
-- **Updated:** 2026-11-03
-- **Sources:** distilled from a Godot project's agent role lessons (ganvchi-court, `agent-docs/01-lore/90-agent-roles/`), generalised to be project-agnostic
+- **Updated:** 2026-11-07
+- **Sources:** distilled from a Godot project's agent role lessons, generalised to be project-agnostic
 
 One agent may hold several roles. Read the page for each role you hold. A subagent that
 was briefed for one job usually holds one role, and its brief names it. Project rules

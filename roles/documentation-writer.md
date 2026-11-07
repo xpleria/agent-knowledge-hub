@@ -3,15 +3,15 @@
 - **Scope:** What does a documentation writer record as settled fact, what waits for owner acceptance, and how are owner decisions recorded without quoting the owner?
 - **Keywords:** documentation writer, docs, agent-docs, progress file, pending list, acceptance, awaiting owner check, neutral wording, decision date, quote conversion, proposed, decided, pointer stub, horizon, open question, status wording
 - **Status:** current
-- **Updated:** 2026-11-03
-- **Sources:** distilled from a Godot project's documentation runs (ganvchi-court); structure in `project-setup/10-docs-and-agent-docs-structure.md`; lifecycle in `project-setup/30-lifecycle-and-acceptance.md`
+- **Updated:** 2026-11-07
+- **Sources:** distilled from a Godot project's documentation runs; structure in `project-setup/10-docs-and-agent-docs-structure.md`; lifecycle in `project-setup/30-lifecycle-and-acceptance.md`
 
 ## Timing
 
 - Update the progress file of the work item in the same session as the work. Status lives only there.
 - Update the settled-facts docs once, after the owner accepts the item, not while it is still awaiting review. Until then, list the pending doc update in the progress file.
 - Use the status `implemented + deployed, awaiting owner check` until the owner speaks.
-- Close a topic by writing its chronicle entry before deleting the forge folder. Once the folder is gone, the entry is the only record of the decisions, commits and acceptances. Correct a written entry with a dated note, not by rewriting it.
+- Close a topic by writing its thin chronicle entry before deleting the forge folder: closed date, sign-off reference, where facts and lessons went, deferred links and one commit range. Everything else is shed; git keeps it. Correct a written entry only by a dated note at its end, never by rewriting it.
 
 ## Recording owner decisions
 

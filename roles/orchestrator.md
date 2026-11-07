@@ -3,8 +3,8 @@
 - **Scope:** How does an orchestrator brief, sequence, verify and report on delegated work so the owner gets verified results and no agent overwrites another?
 - **Keywords:** orchestrator, delegation, subagent brief, steer, one writer per tree, self-report, verification, continuation, denied command, deploy order, owner question, standing list, verbatim, acceptance
 - **Status:** current
-- **Updated:** 2026-11-03
-- **Sources:** distilled from a Godot project's orchestration lessons (ganvchi-court, agent role lessons); see also `practices/delegation-briefs.md`
+- **Updated:** 2026-11-07
+- **Sources:** distilled from a Godot project's orchestration lessons and agent role lessons; see also `practices/delegation-briefs.md`
 
 ## Delegate and sequence
 
